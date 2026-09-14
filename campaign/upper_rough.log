@@ -1,0 +1,6 @@
+C:\Users\jared\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\Users\jared\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_methods.py:144: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{"LO": 990000000000, "W": 2000000, "seed": 681, "bad_n": 0, "good_n": 2000, "bad_median_rough": NaN, "good_median_rough": 55.0, "bad_median_prime": NaN, "bad_median_mid": NaN, "good_median_prime": 32.0}
+HASH fb05f4d588551c2c499ea22cb2480e047fb8713bb3c4ec6276b6903e9402c1e6

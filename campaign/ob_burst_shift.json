@@ -1,0 +1,5 @@
+{"id":"erdos681_burst_shift_identity",
+ "imports":"none",
+ "hypotheses":["(p d k : Nat)","(hp : 1 ≤ p)","(hd : d ≤ k)"],
+ "conclusion":"(p + d) - 1 + (k - d) = p - 1 + k ∧ ((k - d) ^ 2 ≤ k ^ 2)",
+ "proof":"⟨by omega, Nat.pow_le_pow_left (by omega) 2⟩"}

@@ -1,0 +1,10 @@
+LEAN_RESULT erdos681_burst_shift_identity
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_burst_shift_identity.lean
+  THEOREMS msl_erdos681_burst_shift_identity
+  BACKEND windows
+  AXIOMS Quot.sound, propext
+  TACTIC (supplied proof)
+  BUDGET 120s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_burst_shift_identity.cable.json

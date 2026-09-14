@@ -1,0 +1,10 @@
+Using StandardEncoding for cid2unicode as Encoding has no meaningful glyphs: {91: 'flat'}
+Using StandardEncoding for cid2unicode as Encoding has no meaningful glyphs: {195: 'squiggleright'}
+Using StandardEncoding for cid2unicode as Encoding has no meaningful glyphs: {41: 'bracerightBigg'}
+{
+  "acquired": 30,
+  "corpus_source": "auto_acquired_litacq_patents",
+  "out": "oracle/evidence/erdos681/literature/corpus_lowertail.json",
+  "paper_count": 30,
+  "patent_count": 0
+}

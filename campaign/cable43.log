@@ -1,0 +1,11 @@
+LEAN_RESULT erdos681_trialdiv_999997304513_2_100000
+  FORMAL_STATUS KERNEL_FAILED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_trialdiv_999997304513_2_100000.lean
+  THEOREMS msl_erdos681_trialdiv_999997304513_2_100000
+  BACKEND windows
+  AXIOMS -
+  TACTIC (supplied proof)
+  BUDGET 300s:KERNEL_FAILED
+  FAILURE RAW[exit 1 with no captured error line]
+  LAW KERNEL_FAILED does not refute the claim — the FAILURE line names what actually broke
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_trialdiv_999997304513_2_100000.cable.json

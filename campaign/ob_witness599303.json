@@ -1,0 +1,6 @@
+{"id":"erdos681_witness_p599303_k27",
+ "imports":"none",
+ "set_options":["set_option maxRecDepth 200000"],
+ "hypotheses":[],
+ "conclusion":"(599302 + 27 == 739 * 811 && (List.range 739).all (fun q => q < 2 || (599302 + 27) % q != 0) && decide (27 ^ 2 < 739) && decide (27 ^ 4 < 599302 + 27)) = true",
+ "proof":"by decide"}

@@ -1,0 +1,10 @@
+LEAN_RESULT erdos681_large_prime_hits_one_shift
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_large_prime_hits_one_shift.lean
+  THEOREMS msl_erdos681_large_prime_hits_one_shift
+  BACKEND wsl
+  AXIOMS Quot.sound, propext
+  TACTIC (supplied proof)
+  BUDGET 120s:UNDECIDED_RESOURCE[wall-clock timeout (exit 124)] -> 600s:UNDECIDED_RESOURCE[wall-clock timeout (exit 124)] -> 1800s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_large_prime_hits_one_shift.cable.json

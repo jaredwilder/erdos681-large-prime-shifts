@@ -1,0 +1,1752 @@
+ON THE PRIME FACTORS OF
+\k/
+AND OF CONSECUTIVE INTEGERS
+P
+. Erdős and A . Sárközy
+1
+.
+First we introduce some notations
+.
+c l ,
+c 2 , .
+. .
+denote positive absolute constants . The number of
+elements of the finite set S is denoted by
+ISI
+.
+We write
+ex = exp x . We denote the i th
+prime number by p
+i
+,
+.
+v(n) denotes
+the number of distinct prime factors of n . mk
+is the smallest
+integer m for which
+v(1k»
+> k
+.
+P(n) is the greatest, p(n) the smallest prime factor of n . nk
+is
+the smallest integer n for which
+P(n+i) > k for all 1 <
+i <_ k
+.
+In L31, Erdös, Gupta, and Khare proved that
+Mk > c
+I
+k 2
+log k
+.
+(1)
+We prove
+THEOREM 1 .
+Por
+k > k 0
+we
+have
+(2)
+mk
+>
+c 2
+k 2
+(log k) 4/3 (log
+log k)-4/3(logloglog k) -1/3
+It seems certain that mk > k2+c . It follows from results of
+Selfridge and the first author [41 that, by an averaging process,
+mk < ke+e
+The exact determination of, or even good inequalities for,
+mk
+seems very difficult .
+Denote by mk the least integer such that for every m
+? mk
+k )I ? k
+Szemerédi and the first author proved in L51 that mk < (e+c ) k
+for
+every c > 0 if k > k0 .
+Very likely mk < k c
+but we could not even
+prove
+mk
+< (e-F) k .
+Schinzel conjectured that
+v((k))
+= k holds for
+UTILITAS MATHEMATICA Vol .
+16 (1979), pp . 197-215 .
+infinitely many values of m . This is almost certainly true, but will be
+hopelessly difficult to prove . Let g(n) be the smallest integer
+t ?
+1 (if it exists) for which n-t has more than one prime factor
+greater than t (or the same definition for n+t) ; surely g(n)
+exists for both definitions but it is not known (see
+[41) .
+In a previous paper C2, p .2731, P .
+Erdős
+outlined the proof of
+(3)
+nk
+<
+klog k / log log k
+No reasonable lower bound for nk
+was known . We prove
+THEOREM 2 .
+If
+k > k 0 , then
+nk
+> k5/2 /16 .
+It seems certain that for k > k 0 (t), n k
+> k t
+and, in fact,
+perhaps the upper bound (3) is close to the "truth"
+.
+Some other related problems and results can be found in [1]
+.
+2 .
+Proof of Theorem 1 .
+We need two lemmas
+.
+LEMMA 1
+.
+If
+x ? 0, y > 2
+and
+d
+is a positive integer, then the
+number of soZutions of
+p-q =
+d, x
+<
+p
+<<
+x+Y
+,
+where p,
+q
+are prime numbers, is Zess than
+c 3
+T[
+I1 + 1 y 2
+< c 4
+log log (d+2) y 2
+p/d
+p
+log y
+log y
+This lemma can be proved by Brun's sieve (see e .g . [61 or 171)
+.
+LEMMA 2 .
+Let
+N ? 2
+be a positive integer and s l
+<
+s 2
+<
+.
+. .<
+s N
+e
+any integers . Put sN s l = S and, for fixed d, denote the number of
+soZutions of
+s
+- s
+= d
+x
+y
+by
+F(d) .
+Then there exists a positive integer
+D
+such that
+2
+D <_
+NS
+and
+F(D) > 48S
+Proof of Lemma 2 .
+Then
+and
+thus
+hence
+(4)
+since
+and
+For
+j =
+1,
+2, .
+. .,
+[N/4] + 1,
+let
+I j
+= [sl+(j-1)y,sl+jy]
+.
+holds alsó
+for
+N =
+2,
+3 .
+Let
+N,
+? 2
+for some
+J
+N
+.
+Then for all
+the
+(
+2 J
+pairs,
+s l +(I s i+1'y
+> s l + y y-s l+S=s N
+,
+[S/y]+i
+U
+I j
+D
+Ls l
+, SN 1
+;
+j=1
+lsj<_[N/4]+1
+J
+1<-j5[N/4]+l
+J
+1<j5[N/4]+l
+N .>-2
+N.=1
+J
+J
+=N- ([N/4]+1) ?N- 2= 2
+[ N ]±1
+< N + N = N
+for
+N? 4
+4
+4
+4
+2
+j
+N,
+and define
+z
+by
+s z
+i
+I
+J
+.,
+sz+1
+E
+I
+j
+.
+1 < x
+<
+y
+<
+N
+.
+,
+we have
+1
+<_ s
+-sz+x
+<
+s z +N'J
+-
+sz+1
+< 4S/N
+z+
+.
+Y
+Thus, with respect to (4) and using Cauchy's inequality, we obtain that
+N `
+F(d) >
+2j
+)
+lsd<_4S/N
+15j5[N/4]+1
+N,?2
+J
+N,-1
+N,/2
+1<-j<[N/4]+l
+J
+2
+lsjs[N/4]+1
+1 2
+N,>2
+N .?2
+1
+1
+hence
+1
+4
+lsj<_LN/4]+1
+N,?2
+2
+>
+4(2)
+1<j<LN/4]+l
+F(d)
+2
+max
+F(d)
+>_
+1<d<4S/N 
+>
+N/12 = N
+1<- d<-4S/N
+E
+1
+4S/N
+48S
+'
+1<- d<-4S/N
+which completes the proof of the lemma .
+In order to prove Theorem 1, it suffices to show that if e is
+sufficiently small then the assumptions
+2
+N,
+E
+1
+l<- j<-[N/4]+l
+J
+1<j<-[N/4]+1
+N . ?2
+N . ?2
+J
+J
+>
+N2
+N + 1
+> N 2
+3N - N
+16
+4
+)
+16 4
+12
+(5)
+v
+«M»
+> k
+,
+(6)
+m
+:
+ck 2(log k) 4/3(log log k) -4/3 (log log log k) -1/3
+lead to a contradiction for all k ? k 0 (c) . By (1) we may assume that
+(7)
+m >
+c l k 2
+log k
+also holds .
+For all 0 <
+i < k-1, we write
+m-i
+= a,b,
+,
+where P(a i )
+< k and p(b i )
+> k (if, for example, all the prime
+factors of
+m-i
+are less than or equal to k then we write b, = 1)
+.
+i
+Furthermore, let S 1
+denote the set consisting of the integers
+0 <_
+i < k-1 such that
+P(m-i)
+k log k
+log k
+and let S 2
+= {0,1, .
+. .,k-1}-SI (i .e .
+i
+e S 2
+if and only if
+110 <
+i
+<- k-1 and P(m-i) > k log k (log log k) -l )
+.
+thus
+(9)
+First we give a lower estimate for
+II
+aí
+• (k)
+is an integer ;
+icS 2
+m-i
+p
+k'
+k-1
+k-1
+m(m-1) . . .(m-k+1)
+=
+II
+a
+1
+,
+II
+b
+1
+,
+,
+i=0
+i=0
+k-1
+and, obviously, ~k!, R b
+1
+,
+= 1 . Thus we have
+i=0
+and hence by Stirling's formula,
+(8)
+(for sufficiently large k) .
+From
+(5), we have
+k
+II
+a
+> k .
+> (k ,
+i=0
+i
+l
+1
+3
+ki
+k
+<
+v ((k )'
+< (v(m(m-1) .
+. . (m-k+l) )
+1 +
+-1
+1
+p<-k
+k<p<_k
+log k (log log k)
+p
+Im(m-1)
+. . .(m-k+l)
+pIM(m-1)
+. . .(m-k+l)
++
+~
+1
+1
+k log k(log log k)
+-
+<p
+p
+m(m-1)
+. . .(m-k+l)
+Here the first term is less than or equal to
+7(k)
+.
+Furthermore, if
+k log k (log log k) -1 < p and p
+I m(m-1)
+.
+.
+.(m-k+l)
+then p1m-i
+for some
+i
+e S 2 ,
+and by
+(6), we have
+_
+m
+_
+k log k (log log k) -1
+sk2 (log k)4/3(log
+log
+)-4/3
+ 
+(log log log k) -l/.3
+k log k (log log k) -1
+= ck(log k) 1/3 (log log k) -1/3 (log log log k) -1/3
+< k log k (log log k) -1
+.
+Thus for all
+í
+c S 2 ,
+m-i
+has only one prime factor greater than
+k log k (log log k) -1
+.
+This implies that the third term in (9) is less
+than or equal to
+IS21
+.
+Finally, we write
+E
+-1 1=R
+.
+k<p<k log k (log log k)
+pIm(m-1) .
+. . (m-k+l)
+We obtain from (9) that
+k <
+Tí(k)+R+IS 2
+I
+;
+hence
+(10)
+R ? (k-IS2I)- TT(k) = S 1
+-
+Tr(k)
+Obviously, we have
+7T(k)+R
+Ti(k)+R
+(12)
+II
+p,
+>
+II
+í=7i (k)+1
+L
+í=TT(k)+1
+By the prime number theorem, we have p i
+-
+i log i .
+Furthermore, by the
+prime number theorem and the definition of R,
+R < Tr(k log k (log log k)
+1)
+< k
+(for large k) . Thus by (10) and using the prime number theorem and
+Stirling's formula, we obtain, for sufficiently large k and
+S I
+I
+> c8 ,
+that
+Tr (k) +R
+R
+í=Tr (k)+1
+'1
+-
+1
+i
+log
+i
+'1 -
+S1
+(11)
+11
+=
+11
+m-1 < m
+ieS l
+S
+bi
+II
+-1
+p
+k<p<k log k (log log k)
+plm(m-1) . . .(m-k+l)
+i=TT(k)+R
+<_ m
+p
+p í
+1= Ti (k)+1
+11)i log (TT(k)+1)
+•
+~ (k)+R
+1 - 1
+i log k
+=
+9
+R(log
+k)R
+(Tr(k)+R)'
+i=7r(k)+1
+10)
+(10)
+(
+(k))
+.
+ISI I-7(k)
+ISI
+I
+:
+•
+(2_)k
+IO
+(log k)
+r(k)
+7r
+(
+k)
+S l
+i
+- Ti
+>
+( 9~)k (log k) ISl
+(7(k)
+log k) (k)
+ 
+IS l i S1I
+3
+9
+• (IO
+k
+)
+(ISII
+log
+9 k
+(
+•
+10)
+(IS1I
+log
+k) Is 1 1 e-Ti(k) log (Tr(k) log k) 3-k
+k)
+I S1
+I e-2k
+3-k
+Is
+1
+-k -k
+-k
+S l
+k)
+93= 30(ISIIlog
+k)
+(9
+)k(IS1I log
+•
+1 10
+(11) and (12) yield that, for
+IS I
+I
+> c 8 ,
+(13)
+R
+ai <
+ 
+m IS1I 
+IS
+ 
+I
+k IS11
+30k
+ISI I k log k
+Is1
+1
+icSl
+30-k (IS I Ilog k)
+1
+By (10) and the prime number theorem, we have
+(14)
+IS
+1
+1
+s
+R+TT(k)
+_
+E
+1 + 7T(k)
+k<psk log k(log log k -1
+pIM(m-1) .
+. .(m-k+l)
+5
+E
+-1
+1 + 71 (k)
+k<p`k log k(log log k)
+_ (Ti(k log k (log log k) -1 ) -
+TT(k)) +
+7T (k)
+= Tr(k log k (log log k) -I)< 2k(log log k) -I -
+If a > 0
+then an easy discussion shows that the function f(x) _ (a/x) x
+is increasing in the interval 0 < x < a/e . If we put a = m/(k log k)
+and x =
+ÍS 1
+1
+then from (7) and
+(14) we have
+.
+c k 2
+log k
+a
+_m 
+>
+7
+= rl k
+> 2k(log
+log k)
+1
+>
+IS
+I
+e
+e k log k
+e k log k
+e
+1
+for sufficiently large
+k .
+Thus,
+for large
+k
+and
+IS1I
+> c 8 ,
+(13)
+and
+(14) yield that
+(15)
+For large
+k,
+this holds also
+for
+0 <
+IS11
+5
+c 8
+since
+in
+this
+case,
+from
+(6)
+and
+(7) we have
+kIs1I30k m 2k(log log
+(k 2 log k (log log k) -1
+> 30k
+cl k 2
+log k
+(k 2 log k (log log k) -1
+while
+for sufficiently large k .
+(8) and (15) yield that
+IS1
+k
+m
+/ IS1I
+ie
+11
+S
+ai
+<
+30
+IS 1 Ik log k
+1
+F1
+a,
+<
+n
+m
+= m IS1I
+<
+(k3)
+S1 I
+<
+k3c8
+<
+30k
+icS 1
+1
+icS 1
+< k
+IS 11
+30k( m 2k(log log k) -1
+2k(log log k) -1 k log k
+IS I
+2k(log log k) -1
+<
+k
+1 30k
+ 
+m
+k 2 log k (log log k) -1
+-
+2k(log log k)
+1
+k-1
+1
+(16)
+n
+a
+.
+_
+;I a
+aa
+i(S2
+1
+i=0
+1 iESI
+1
+k
+kIkIs1I30k m 2k(log log k) -1 -1
+~3/
+(k2 log k (log jog k) -1
+kk- IS1 1 90-k
+m
+-2k(log log k) -1
+k 2 log k (log log k) -1
+= k S 2
+90-k m 
+-1
+~ 2k(log log k) -1
+(k 2 log k(log log k)
+k) -1
+k
+>
+30
+,
+Let
+S,,
+denote
+the
+set consisting of
+the integers
+0
+<-
+i
+< k-1,
+i
+E
+S2 ,
+and
+ai
+<
+10-6k
+.
+Then we have
+(17)
+where
+(1 .6)
+and (17) yield that
+hence
+(18)
+(19)
+R
+a,
+=
+R
+a .
+R
+ies2
+1
+1ES 2 ,i~S 3
+1
+icS 3
+•
+11
+10-6k 11
+mb 1
+iGS2 ,i~S 3
+icS 3
+1
+•
+R
+10 6k R k
+m
+ics 2 ,i~S3
+iES 3
+kP(m-i)
+i
+satisfying
+5
+k Is 2I
+R
+10-6
+1'
+m
+icS2 , US3
+icS 3 k 2log k (log log k) -1
+k
+`
+Is2i (10- 6) IS 2 I-T
+ 
+m T
+(k 2 log k (log log k) -1
+• kIS2I(10-6)k-T ( m _
+T
+k` log k (,log log k) -1
+k is2I 9p
+k m 
+2k(log log k) -1
+(k 2 log k (log log k) -1 )
+<
+k S2I(lp-6)k-T(
+ 
+m 
+T
+k 2 log k (log log k) -1
+T+2k(log log k)- 1
+(10 6 ) k-T90-k < ( m 
+k 2 log k(log log k) -1
+We are going to show that this inequality implies that
+T > k(log log k) -1
+.
+If T
+? k/2 then this inequality holds trivially for large k ; thus we
+may assume that T < k/2 . Then we obtain from (18) that
+T+2k(log
+log k) -1
+k 2
+log k(lo
+m
+g
+log k) -1
+(106 ) k-k/2 90-k
+> 103k
+10-2k = 10k
+.
+Thus,
+from
+(6), we have
+T+2k(log
+log k)-1 > _ klog10
+log
+m
+1
+k 2
+log k(log
+log k) -
+klog10
+log
+Ek2 (logk) 4/3 (loglogk) -4/3 (loglog logk) -1/3
+k 2
+log k
+(log log k) -1
+k
+log
+10
+log
+(e(log k) 1/3 (log log k) -1/3 (log log log k) -1/3 )
+> klog10 - 3klog10
+>
+3k(log
+log k) -1
+tog (log k) 1/3
+log log k
+for sufficiently large k, which yields
+(19) .
+By the definition of a ., we have a .lm-í . If
+then
+> 10-6k also holds . But, if a > 10 -6k, then a may have at most
+k+1
+< k +
+1
+<
+10 6
++
+1
+<
+2 .10 6
+al
+a
+multiples amongst the numbers m, m-1,
+. ,
+m-k+l . Thus, for fixed a,
+a i
+a, 1
+E
+S3
+,
+has less than 2 .10 6
+solutions . From
+(19),
+this implies
+that the number of the distinct a í 's with í c S 3
+is greater than
+F, 1
+icS3
+ 
+T
+k(2 .10 6
+log log k) -1
+2
+. 10 6
+-
+2 .106 >
+•
+By the definitions of the sets S 2
+and S 3 ,
+i
+(
+S 3 (á S 2 )
+implies that
+-
+k log k (log log k)
+1
+< P(m-i) < b i
+;
+hence,
+from
+(6),
+(20)
+(10-6k <)a .
+=
+m-i
+m
+i
+bi
+k log k (log log k) I
+<
+ek 2 (log k) 4/3 (log log Q - 
+4/3
+ 
+(log Iog log k) 
+1/3
+-
+k log k (log log k)- 1
+ek (log k) I/3 (log log k) -I/3 (log log log k) -1/3
+and for all
+Let us write
+• = k (log k) -5/3
+(log log k) 2/3 (log log log k) 2/3
+(ek(log k)1/3(log log k) -1/3 (log log log k)-1/3
++ l,
+L
+t
+let us form the interval I
+J
+, _ ((j-1)t,jt7 . By
+(20), these intervals
+cover all the a i 's (with
+i
+E
+S3),
+and the number of these intervals is
+~ek(log k)1/3(log log k) -1/3 (log log logk) -1/3
+, + 1
+I
+l
+J
+t
+~ek(log k) 1/3(log log k) -1/3 (log log log k)-1/3 + 1
+k(log k) -5/3 (log log k) 2/3 (log log log k) 2/3
+•
+c(log k) 2 (log log k) -1 (log log log k) -I + 1
+•
+2e(log k) 2 (log log k) -1(log log log k) -I
+(for large k) . Thus the matchbox principle yields that there exists
+an interval I, which contains more than
+j
+k(2 .10 6
+log log k) -I
+2e(log k) 2 (log log k) -I(log log log k) -1
+_ (4 . 10 6 )
+-1c
+-I k (log k) -2 log log log k
+distinct a I 's . In other words, there exist indices i l , i 2 ,
+1N
+satisfying i Q e S 3
+for
+i
+<_ Q <_ N,
+(21)
+(j-1)t
+< a
+1
+.
+<
+a
+1
+,
+< . . .<
+a
+1
+.
+S jt
+1
+2
+N
+and
+(22)
+Let
+us apply Lemma 2 with the set a .
+,
+a,
+,
+.
+. .,
+a,
+in place
+1 1
+1 2
+1N
+of the set s l , s 2 ,
+. . .,s N .
+(By (21), N ? 2 holds trivially .) Then
+from
+(21), we have
+(23)
+D
+has at least
+(25)
+F(D)
+?
+N2
+>
+(4 .10 6 )-2e-2k2(log k) -4
+(log log log k) 2
+48S
+48k(log k) -5/3 (log log k) 2/3 (log log log k) 2/3
+> 10-15
+c-2 k(log k) -7/3 (log log k) -2/3 (log log log k) 4 / 3
+solutions
+.
+S
+=
+sN-sl =
+a
+-a i
+l IV
+1
+that for large k
+N > (4
+. 106 ) -1 c-1 k (log k) -2 log log log k
+.
+< t = k(log k) -5/3 (log log k) 2/3 (log log log k) 2/3
+Thus, from
+(22), we obtain that there exists an integer
+< 4S < 4k(log)
+k) -5/3 (log log k) 2/3 (log log log k) 
+2/3
+N
+(4 .10 6 )-1
+e-1
+k (log k) -2 log log log k
+16 .10 6 c(log k) 1/3(log log k) 2/3 (log log log k) -1/3
+a
+.
+- a,
+=
+D
+x
+y
+By the definition of the set S 3 , i Q
+E
+S 3
+implies, from
+(6),
+m-12
+m
+1 R
+a 1Q
+10-6k
+< 10 6
+e k(log
+k) 4/3 (log
+log k) -4/3 (log log
+log k) -1/3
+<
+k(log k) 4/3
+and, on the other hand,
+(26)
+b í
+? P(m-í R )
+> k log k (log log k)-
+1
+.
+Q
+By the definition of b,
+,
+we have p(b,
+) > k; thus these inequalities
+1 Q
+1 Q
+imply that b i
+= q. must be a prime number . Then
+q l ,
+g 2' *** 'qN are
+2
+distinct since by (26), q Q > k log k (log log k) -I
+(for all R) . Thus
+q. may have at most one multiple amongst the numbers m,
+m-1,
+. . .,m-k+l .
+Furthermore, we have
+m-iZ
+m
+a,
+<
+('-1)t
+(it can be shown easily that j > 1) and
+m-iQ
+1 R > m _
+k
+m
+6
+qQ
+ai
+al
+ai
+jt
+10-6k
+jt
+- 10
+Q
+Q
+Q
+Thus all the primes q R
+belong to the interval
+6
+ 
+m
+I= r jmt - 10
+(j - 1) t
+From a i
+>
+10-6k,
+(5),
+and the definition of t, the length of this
+(27)
+interval is
+(28)
+Hence
+(29)
+(30)
+_
+m
+-
+6
+ 
+m
+ 6
+~1~
+Q-1)
+ t
+jEl- - lo
+= 0-1) jt + lo
+<
+mt
+<
+mt
+<
+mt
+< 2 . 10-12mtk-2
+(it-t)jt
+(aiz-t)a
+(10-6k-t)10 -6k
+< 2 .10-12 ek 2 (log k) 4/3 (log log k) -4/3 (log log log k) -1/3
+ k(log k) -5/3 (log log k) 2/3 (log log log k) 2/3 k 2
+2 . 10 -12 ek(log k) -1/3 (log log k) -2/3 (log log log k) 1/3
+Furthermore, if a,
+and a,
+satisfy (24) then we have
+x
+y
+m-i
+m-i
+a .i -ai
+i
+i
+qy-qx
+__
+a
+ 
+Y
+a
+x= m a,
+ 
+x
+i
+ 
+Y +
+a
+ 
+x
+a
+ 
+Y
+,
+,
+a
+,
+,
+i
+i
+i
+i
+i
+y
+x
+x y
+x
+y
+mD
++x
+-
+a i
+(ai +D)
+a,
+a,
+Y Y
+lx
+ly
+ 
+ml)
+(4y- qx )
+- a l
+(a 1 +D)
+Y Y
+< a + 
+y
+<
+2 •k6
+=
+2 . 106
+.
+i
+a i
+10 k
+x
+y
+On the other hand, by (6) and
+(23), we have
+L 
+(jt) 2- (a i
+) 2) +D(jt-a i
+)I
+mD
+ 
+Y Y
+a . (a
+. +D)jt(Jt+D)
+ly
+lY
+mD jt-a, I(jt+a,
+)
+ 
+y x
+a i ai
+jt(jt+D)
+y x
+ mD
+_ mD
+a i
+(ai +D)
+jt(jt+D)
+Y Y
+1
+jt-a,
+jt+a
+ 
+l
+. +D
+= mD
+ 
+lY Y
+ai
+(a i +D)jt(jt+D)
+Y Y
+<
+mD •t •2jt
+a, a, it
+a
+y x
+x
+2mDt
+ =
+2
+. 10 18mDtk -3
+(10-6k) 3
+< 2 .1018ek2(log k) 4/3(log log k) -4/3 (log log log k) -1/3
+16 106 e(log k) 1/3 (log log k) 2/3 (log log log
+k) -1/3
+ k (log k) -5/3 (log log k) 2/3 (log log log k) 2/3 k-3
+24
+= 32 .10
+e2 •
+For small
+E,
+(29)
+and
+(30) yield
+that
+ mD
+(q q
+)
+-
+Y- x
+it(jt+D)
+by
+G(d),
+we have from (25)
+(33)
+G(d) >F(D)
+6
+. 10 6+1
+(q -q
+)
+- mD
+y x
+a i
+(a i +D)
+Y Y
+<
+2 .106+32 .1024E2
+<
+3 . 10 6
+.
+Thus for all the F(D) solutions x, y of
+(24),
+qy-qx
+is in the
+interval
+mD+D
+-
+3 . 10 6
+<
+q -q
+<
+mD
++
+3 .106
+.
+jt(~
+)
+y x
+it(jt+d)
+The length of this interval is 6 .10 6 ;
+thus, by the matchbox principle,
+there exists an integer d such that (from (6) and
+(23))
+(31)
+d < jt(jD+d) + 3-10 6
+<
+-6k) 2 + 3
+. 10 6
+(10
+< 1012ck 2 (log k) 4/3 (log log k) -4/3 (log log log
+k) -1/3
+ 1 6
+. 10 E(log k) (log log k) (log log log k) -1/3 .k-2
+16 . 1018E 2 (log k) 5/3log log k) -2/3 (log log log k) -2/3
+6
+1/3
+2/3
+and, denoting the number of solutions of
+(32)
+qX q y
+=
+d,
+qx
+E
+1,
+qy
+E
+1
+ mD mD
+a i
+(ai +D)
+jt(jt+D)
+Y Y
+> 10-15 c-2k(log k) -7/3 (log log k) -2/3 (log log log k) 4 / 3
+6 . 10 6+1
+> 10 22 e-2k(log k) -
+/3 (log log k) -2/3 (log log log k) 4/3
+On the other hand, by
+(28), Lemma 1 yields that the number of
+solutions of (32) is
+(34) G(d) < c log log (d+2) III
+4
+log 2111
+< c4 log log(16 .1018e2(log k)5/3(log log k)-2/3(log log log k)-2/3+2)
+2 .10-12ek(log k)-1/3(log log k)-2/3(log log log k)1/3
+log 2(2 .10-12Ek(log k)-1/3(log log k)-2/3(log log log k)1/3)
+< 2c tog tog tog k 2'10 
+12
+ 
+ek(log k)- 1/3
+ 
+(log log k)- 2/3
+ 
+(log log log k) 
+1/3
+4
+2-1 log2k
+= 8 .10-12 s4 k(log k)-7/3(log log k)-2/3(log log log k) 4/3
+(33) and (34) yield that
+10-22e-2k(log k)-7/3(log log k)-2/3(log log log k) 4/3
+hence
+< 8 .10-12E c4 k(log k)-7/3(log log k)-2/3(log log log k) 4/3
+8-110-10c-1 < c3
+But for sufficiently small c, this inequality cannot hold, and this
+contradiction proves Theorem 1 . (In fact, as this inequality shows,
+Theorem 1 holds,for example,with c2 = 10-4 c41/á )
+3. Proof of Theorem 2 .
+We have to prove that if k > k0 and
+(35)
+0 <_ n <_ k5/2/16 ,
+then there exists an integer u such that
+(36)
+n < u < n+k
+and
+(37)
+P(u) <- k
+.
+We are going to show that there exists an integer u satisfying (36)
+and of the form
+where
+the integers
+di
+satisfy
+(38)
+0 < di <_ k
+for
+i =
+1,
+2,
+3
+.
+Obviously,
+an integer
+u
+of
+this form also
+and
+Then
+hence
+(39)
+x 2 - n > 0
+z
+Let
+us define the non-negative integer y by
+(40)
+y
+<
+(x2
+- n)1/2 <
+y+1
+.
+z
+Finally, let
+and
+d3 = x+y .
+Then d l > 0 and d3 > 0 hold trivially while d 2
+> 0 will follow
+from d l
+> 0, d3 > 0 and u = d 1 d 2d 3
+> n . Furthermore,
+dl = z = [k l/2 /3] < k holds trivially . Finally, in view of (35) and
+(39), we have
+Let us define the positive integers x and z by
+z
+=
+Ck1/2/3]
+x =
+C(n/z) 1/2 ]
++
+1
+.
+x 2
+> ((n/z)1/2)2
+=
+n/z
+;
+satisfies
+(37)
+.
+d l
+=
+z,
+d 2
+=
+x -y ,
+for
+k
+large
+Finally,
+by
+(40),
+hence
+Thus,
+from (35), we have
+(42)
+u =
+d 2
+=
+,1/2
+x-y
+<
+x+y =
+d
+3
+< (x + x2 - n
+zZ
+(n/z)1/2+1 +
+«(n/z)1/2+1,2
+-
+(n/z)1/2+1+(2(n/z)1/2+1)1/2
+\
+ 
+k 
+5/2
+1/2
+k
+5/2
+1/2
+ 
+/2  + 1 +
+2
+1/2
+16[k 1
+/3J
+16Ck
+/37
+n
+z
+\1/2
++ 1
+_ (1+0(1))3 1/24-1k+1+0(kí/2 )
+_ (1+0(1))3 1/2 4-1k
+)
+1/2
+-> + -, Here 3 1/2 4-1
+< 1 ; thus also d 2 <- d 3 < k holds for
+k which completes the proof of (38) (provided that u > n) .
+By
+(40), we have
+(41) u =
+dld2d3 =
+z(x-y)(x+Y)
+=
+z(x 2-y2 )
+>
+z/x2-
+( x2- n)l/2
+2 =
+z
+,Z = n
+.
+x 2
+- z ~
+(Y+1) 2
+,
+z(x2-(Y+1)2) ~
+n
+d ld 2d 3
+=
+z(x-y)(x+Y)
+=
+z(x2-y 2 )
+n +
+(z(x2-y2)-n)
+-< n+(z(x2-y2)-z(x2-(y+1)2)
+n+(2y+1)z
+< n+(2 (x2~ n)l/2 +
+1 z
+l
+I
+1
+z
+< n+(21 ((n/z)1/2+1)2
+- ntl/2 +
+1 z
+n+(2(2(n/z)1/2+1)1/2+1,z
+n+ 2 (2( n 1/2 +
+1)1/2 +
+1 kl/2
+(
+\
+`Ckl/2/37!
+3
+< n+ 2
+2(k5/2/16\ 1/2
+1/2
+k 1/2
+\kí/2/4
++ 1
++ 1
+3
+/
+n+'2 (k+1)1/2+1)
+k 31/2
+< n+3k1/2
+-
+k 31/2
+n+k
+for sufficiently large k /
+.
+(41) and (42) yield (36) and this completes the proof of Theorem 2 .
+REFERENCES
+[17
+P .
+Erdős,
+Uber die AnzahZ
+der Primfaktoren von
+(k), Archiu
+der
+Math .
+24
+(1973),
+53-56
+.
+[2]
+P .
+Erdős, Problems and results on consecutive integers,
+Publ . Math .
+Debrecen .
+23
+(1976),
+271-282 .
+[37
+P .
+Erdős,
+H . Gupta and S .
+P .
+Khare,
+On the number of distinct prime
+factors of (k),
+Utilitas Math .
+10
+(1976),
+51-60 .
+[4]
+P
+.
+Erdős
+and J . Selfridge,
+Some problems on the prime factors of
+consecutive integers,
+Illinois
+J . Math .
+IZ
+(1967),
+428-430
+.
+[5]
+P . Erdős
+and E . Szemerédi, Problem
+192,
+Mat
+. Lapok 25
+(1974),
+182-183 .
+[61
+H . Halberstam and H . E . Richert,
+Sieve Methods,
+Academic Press,
+London - New York
+- San Francisco, 1974 .
+[77
+H . Halberstam and K . F . Roth, Sequences, VoZ .
+I,
+Oxford,
+Clarendon Press, 1966
+.
+Mathematical
+Institute
+Hungarian Academy of Sciences
+Budapest
+Received February,
+1979 .

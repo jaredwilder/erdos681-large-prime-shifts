@@ -1,0 +1,13 @@
+{'k': 3, 'measured': 0.24377, 'predicted_local': 0.3125, 'ratio': 0.7801}
+{'k': 5, 'measured': 0.14922, 'predicted_local': 0.2179, 'ratio': 0.6848}
+{'k': 7, 'measured': 0.22982, 'predicted_local': 0.36772, 'ratio': 0.625}
+{'k': 9, 'measured': 0.0958, 'predicted_local': 0.16468, 'ratio': 0.5817}
+{'k': 11, 'measured': 0.10995, 'predicted_local': 0.20233, 'ratio': 0.5434}
+{'k': 13, 'measured': 0.14753, 'predicted_local': 0.28511, 'ratio': 0.5174}
+{'k': 15, 'measured': 0.08016, 'predicted_local': 0.16321, 'ratio': 0.4911}
+{'k': 21, 'measured': 0.06931, 'predicted_local': 0.16121, 'ratio': 0.43}
+{'k': 31, 'measured': 0.10569, 'predicted_local': 0.28686, 'ratio': 0.3684}
+{'k': 43, 'measured': 0.07145, 'predicted_local': 0.2359, 'ratio': 0.3029}
+{'k': 61, 'measured': 0.05175, 'predicted_local': 0.23991, 'ratio': 0.2157}
+{'k': 91, 'measured': 0.02104, 'predicted_local': 0.21891, 'ratio': 0.0961}
+HASH 5c6abcbe3038c6484125a950e0b07cc5a7788cd076a32b8cad33511fffa4aeb8

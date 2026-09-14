@@ -1,0 +1,66 @@
+{
+ "schema": "oracle.msl.cable.v1",
+ "id": "erdos681_parity_kills_even_shift",
+ "spec": {
+  "id": "erdos681_parity_kills_even_shift",
+  "imports": "Mathlib",
+  "hypotheses": [
+   "(n k : Nat)",
+   "(hn : 2 \u2223 n)",
+   "(hk : 2 \u2223 k)",
+   "(hk2 : 2 \u2264 k)"
+  ],
+  "conclusion": "\u00ac (k ^ 2 < Nat.minFac (n + k))",
+  "proof": "by\n  have hm : Nat.minFac (n + k) \u2264 2 := Nat.minFac_le_of_dvd (le_refl 2) (dvd_add hn hk)\n  have : 4 \u2264 k ^ 2 := by nlinarith\n  omega"
+ },
+ "formal_status": "KERNEL_CHECKED",
+ "events": [],
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "attempts": [
+  {
+   "tactic": "(supplied proof)",
+   "status": "VERIFIED",
+   "seconds": 30.2,
+   "errors": [],
+   "exitCode": 0,
+   "resource_limit": null
+  }
+ ],
+ "budget_history": [
+  {
+   "tier_seconds": 120.0,
+   "outcome": "UNDECIDED_RESOURCE[wall-clock timeout (exit 124)]"
+  },
+  {
+   "tier_seconds": 600.0,
+   "outcome": "KERNEL_CHECKED"
+  }
+ ],
+ "kernel_result": {
+  "status": "VERIFIED",
+  "file": "oracle/frontier_formalizer/cable/theorems/msl_erdos681_parity_kills_even_shift.lean",
+  "backend": "wsl",
+  "project": "/root/erdosfire-bench/proofs",
+  "needsMathlib": true,
+  "exitCode": 0,
+  "seconds": 29.8,
+  "declarations": [
+   {
+    "declaration": "msl_erdos681_parity_kills_even_shift",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ]
+   }
+  ],
+  "errors": []
+ },
+ "lean_result_block": "LEAN_RESULT erdos681_parity_kills_even_shift\n  FORMAL_STATUS KERNEL_CHECKED\n  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_parity_kills_even_shift.lean\n  THEOREMS msl_erdos681_parity_kills_even_shift\n  BACKEND wsl\n  AXIOMS Classical.choice, Quot.sound, propext\n  TACTIC (supplied proof)\n  BUDGET 120s:UNDECIDED_RESOURCE[wall-clock timeout (exit 124)] -> 600s:KERNEL_CHECKED\n  FAILURE NONE",
+ "timestamp": "2026-09-13T20:21:12Z"
+}

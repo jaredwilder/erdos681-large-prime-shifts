@@ -1,0 +1,7 @@
+{"id":"erdos681_bigbad_primality_999997304513",
+ "imports":"none",
+ "set_options":["set_option maxRecDepth 2000000"],
+ "definitions":"def noDivBelow (m B : Nat) : Bool := (List.range B).all (fun q => q < 2 || m % q != 0)",
+ "hypotheses":[],
+ "conclusion":"noDivBelow 999997304513 1000000 = true ∧ 999997304513 < 1000000 * 1000000",
+ "proof":"⟨by decide, by decide⟩"}

@@ -1,0 +1,5 @@
+{"id":"erdos681_exempt_family_core",
+ "imports":"none",
+ "hypotheses":["(p q k M : Nat)","(hk : 1 ≤ k)","(hM : M ∣ k - 1)","(hq : q ∣ M)","(h : q ∣ p - 1 + k)"],
+ "conclusion":"q ∣ p",
+ "proof":"by\n  have h1 : q ∣ k - 1 := Nat.dvd_trans hq hM\n  have e : p - 1 + k = p + (k - 1) := by omega\n  rw [e] at h\n  exact (Nat.dvd_add_left h1).mp h"}

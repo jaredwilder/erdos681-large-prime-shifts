@@ -1,0 +1,903 @@
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:61:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:61:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:66:41: warning: This simp argument is unused:
+  List.forall	Command being timed: "timeout 3000 lake env lean /mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean"
+	User time (seconds): 77.42
+	System time (seconds): 27.98
+	Percent of CPU this job got: 72%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:25.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7057512
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 214794
+	Minor (reclaiming a frame) page faults: 1333861
+	Voluntary context switches: 267248
+	Involuntary context switches: 3580
+	Swaps: 0
+	File system inputs: 16512160
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:71:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:76:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:76:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:81:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:81:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:86:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:86:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:91:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:91:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:96:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:96:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:101:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:101:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:106:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:106:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:111:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:111:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:116:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:116:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:121:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:121:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:126:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:126:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:131:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:131:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:136:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:136:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:141:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:141:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:146:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:146:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:151:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:151:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:156:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:156:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:161:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:161:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:166:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:166:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:171:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:171:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:176:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:176:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:181:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:181:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:186:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:186:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:191:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:191:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:196:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:196:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:201:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:201:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:206:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:206:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:211:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:211:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:216:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:216:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:221:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:221:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:226:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:226:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:231:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:231:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:236:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:236:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:241:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:241:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:246:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:246:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:251:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:251:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:256:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:256:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:261:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:261:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:266:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:266:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:271:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:271:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:276:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:276:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:281:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:281:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:286:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:286:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:291:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:291:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:296:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:296:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:301:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:301:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:306:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:306:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:311:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:311:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:316:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:316:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:321:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:321:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:326:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:326:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:331:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:331:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:336:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:336:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:341:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:341:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:346:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:346:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:351:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:351:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:356:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:356:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:361:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:361:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:366:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:366:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:371:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:371:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:376:41: warning: This simp argument is unused:
+  List.forall_mem_nil
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, L̵i̵s̵t̵.̵f̵o̵r̵a̵l̵l̵_̵m̵e̵m̵_̵n̵i̵l̵,̵ ̵and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Assembly.lean:376:62: warning: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  simp only [List.forall_mem_cons, List.forall_mem_nil,̵ ̵a̵n̵d̵_̵t̵r̵u̵e̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'erdos681_n999997304512_no_witness' depends on axioms: [propext, Classical.choice, Quot.sound]

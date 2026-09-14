@@ -1,0 +1,6 @@
+usage: noveltyforge acquire [-h] --claim CLAIM --out OUT
+
+options:
+  -h, --help     show this help message and exit
+  --claim CLAIM
+  --out OUT      where to write the {papers,patents} corpus

@@ -1,0 +1,84 @@
+{
+ "schema": "oracle.msl.cable.v1",
+ "id": "erdos681_lucas_prime_999997304513_v2",
+ "spec": {
+  "id": "erdos681_lucas_prime_999997304513_v2",
+  "imports": "Mathlib",
+  "hypotheses": [],
+  "conclusion": "Nat.Prime 999997304513",
+  "proof": "by\n  haveI : Fact (1 < 999997304513) := \u27e8by norm_num\u27e9\n  have key : \u2200 e : \u2115, ((5 : ZMod 999997304513) ^ e).val = 5 ^ e % 999997304513 := by\n    intro e\n    rw [show (5 : ZMod 999997304513) = ((5 : \u2115) : ZMod 999997304513) by norm_num, \u2190 Nat.cast_pow, ZMod.val_natCast]\n  have ev : \u2200 e, e < 2 ^ 40 \u2192 5 ^ e % 999997304513 = pmF 5 999997304513 40 e :=\n    fun e he => (pmF_eq 5 999997304513 40 e he).symm\n  apply lucas_primality 999997304513 (5 : ZMod 999997304513)\n  \u00b7 apply ZMod.val_injective\n    rw [key, ZMod.val_one, ev _ (by norm_num)]\n    decide\n  \u00b7 intro q hq hdvd heq\n    have hv := congrArg ZMod.val heq\n    rw [key, ZMod.val_one] at hv\n    have hfac : 999997304513 - 1 = 2 ^ 6 * 37 * 79 * 193 * 27697 := by norm_num\n    rw [hfac] at hdvd\n    rcases (Nat.Prime.dvd_mul hq).1 hdvd with h | h\n    \u00b7 rcases (Nat.Prime.dvd_mul hq).1 h with h | h\n      \u00b7 rcases (Nat.Prime.dvd_mul hq).1 h with h | h\n        \u00b7 rcases (Nat.Prime.dvd_mul hq).1 h with h | h\n          \u00b7 have h2 := (Nat.prime_dvd_prime_iff_eq hq Nat.prime_two).1 (hq.dvd_of_dvd_pow h)\n            subst h2; norm_num at hv; rw [ev _ (by norm_num)] at hv; revert hv; decide\n          \u00b7 have h2 := (Nat.prime_dvd_prime_iff_eq hq (by norm_num)).1 h\n            subst h2; norm_num at hv; rw [ev _ (by norm_num)] at hv; revert hv; decide\n        \u00b7 have h2 := (Nat.prime_dvd_prime_iff_eq hq (by norm_num)).1 h\n          subst h2; norm_num at hv; rw [ev _ (by norm_num)] at hv; revert hv; decide\n      \u00b7 have h2 := (Nat.prime_dvd_prime_iff_eq hq (by norm_num)).1 h\n        subst h2; norm_num at hv; rw [ev _ (by norm_num)] at hv; revert hv; decide\n    \u00b7 have h2 := (Nat.prime_dvd_prime_iff_eq hq (by norm_num)).1 h\n      subst h2; norm_num at hv; rw [ev _ (by norm_num)] at hv; revert hv; decide",
+  "set_options": [
+   "set_option maxRecDepth 100000",
+   "set_option maxHeartbeats 4000000"
+  ],
+  "definitions": "def pmF (b m : \u2115) : \u2115 \u2192 \u2115 \u2192 \u2115\n  | 0, _ => 1 % m\n  | f + 1, e => if e = 0 then 1 % m else\n      if e % 2 = 0 then pmF b m f (e / 2) * pmF b m f (e / 2) % m\n      else pmF b m f (e / 2) * pmF b m f (e / 2) * b % m\n\ntheorem pmF_eq (b m : \u2115) : \u2200 f e, e < 2 ^ f \u2192 pmF b m f e = b ^ e % m := by\n  intro f\n  induction f with\n  | zero => intro e he; simp at he; subst he; simp [pmF]\n  | succ f ih =>\n    intro e he\n    by_cases h0 : e = 0\n    \u00b7 subst h0; simp [pmF]\n    \u00b7 have hlt : e / 2 < 2 ^ f := by rw [pow_succ] at he; omega\n      have hr := ih (e / 2) hlt\n      simp only [pmF, h0, if_false, hr]\n      split_ifs with h\n      \u00b7 have he2 : e = 2 * (e / 2) := by omega\n        conv_rhs => rw [he2, pow_mul']\n        simp [Nat.mul_mod, Nat.pow_mod, pow_two]\n      \u00b7 have he2 : e = 2 * (e / 2) + 1 := by omega\n        conv_rhs => rw [he2, pow_succ, pow_mul']\n        simp [Nat.mul_mod, Nat.pow_mod, pow_two]"
+ },
+ "formal_status": "NO_KERNEL_BACKEND",
+ "events": [
+  "ENV.FAIL BACKEND[this source imports Mathlib and no reachable Lean project has Mathlib built \u2014 the proof was NOT checked, and is NOT refuted]"
+ ],
+ "axioms": [],
+ "attempts": [
+  {
+   "tactic": "(supplied proof)",
+   "status": "NO_KERNEL_BACKEND",
+   "seconds": 60.0,
+   "errors": [],
+   "exitCode": null,
+   "resource_limit": null
+  }
+ ],
+ "budget_history": [
+  {
+   "tier_seconds": 120.0,
+   "outcome": "NO_KERNEL_BACKEND"
+  }
+ ],
+ "kernel_result": {
+  "status": "NO_KERNEL_BACKEND",
+  "file": "oracle/frontier_formalizer/cable/theorems/msl_erdos681_lucas_prime_999997304513_v2.lean",
+  "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+  "unresolvedImports": [
+   "Mathlib"
+  ],
+  "backend": null,
+  "needsMathlib": true,
+  "reason": "this source imports Mathlib and no reachable Lean project has Mathlib built \u2014 the proof was NOT checked, and is NOT refuted",
+  "declarations": [
+   {
+    "declaration": "pmF_eq",
+    "clean": false,
+    "axioms": []
+   },
+   {
+    "declaration": "msl_erdos681_lucas_prime_999997304513_v2",
+    "clean": false,
+    "axioms": []
+   }
+  ],
+  "next_steps": [
+   {
+    "stage": "verdict",
+    "realityGap": "`oracle/frontier_formalizer/cable/theorems/msl_erdos681_lucas_prime_999997304513_v2.lean` imports Mathlib, and no reachable Lean project on this host has Mathlib BUILT. Configured project `C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal` has none; the WSL backend is unusable: cannot launch 'wsl.exe': TimeoutExpired: Command '['wsl.exe', '-e', 'bash', '-lc', 'test -f /root/erdosfire-bench/proofs/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib.olean']' timed out after 60 seconds. The proof is NOT refuted \u2014 it was never checked.",
+    "action": "Point the lane at a project that has Mathlib built, then re-run the SAME query. Three routes, cheapest first: (1) restore the WSL backend \u2014 `wsl.exe -e bash -lc \"ls /root/erdosfire-bench/proofs/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib.olean\"` should print the file; if WSL itself is down, start it. (2) override the project \u2014 set ORACLE_LEAN_PROJECT to a Windows project that has Mathlib built, or ORACLE_LEAN_WSL_PROJECT to a different WSL project. (3) build it \u2014 in that project run `lake exe cache get` then `lake build`; the cache download is minutes, a cold build is hours.",
+    "runner": "formal_verification",
+    "expectedReceipts": [
+     "oracle.run.v1:lean:verify,oracle/frontier_formalizer/cable/theorems/msl_erdos681_lucas_prime_999997304513_v2.lean with status VERIFIED and a non-empty axioms list",
+     "the kernel's own `depends on axioms: [...]` line in the run output"
+    ],
+    "passCriteria": "the same query returns status=VERIFIED with every declaration's footprint a subset of {propext, Classical.choice, Quot.sound}.",
+    "failCriteria": "the kernel runs and reports a real compile error or a footprint containing sorryAx \u2014 THAT is a result about the proof. Anything that stops at 'unknown module prefix' is a result about this host and must never be recorded against the mathematics.",
+    "priority": 100,
+    "provenance": {
+     "sourceReceiptIds": [],
+     "derivedFrom": "lean_bridge.verify_file backend probe (measured, not inferred)"
+    },
+    "blocked": false,
+    "route": "ENVIRONMENT_REPAIR",
+    "invoke": "python oracle/run.py run \"lean:verify,oracle/frontier_formalizer/cable/theorems/msl_erdos681_lucas_prime_999997304513_v2.lean\""
+   }
+  ]
+ },
+ "lean_result_block": "LEAN_RESULT erdos681_lucas_prime_999997304513_v2\n  FORMAL_STATUS NO_KERNEL_BACKEND\n  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_lucas_prime_999997304513_v2.lean\n  THEOREMS msl_erdos681_lucas_prime_999997304513_v2\n  BACKEND None\n  AXIOMS -\n  TACTIC (supplied proof)\n  BUDGET 120s:NO_KERNEL_BACKEND\n  FAILURE ENV.FAIL BACKEND[this source imports Mathlib and no reachable Lean project has Mathlib built \u2014 the proof was NOT checked, and is NOT refuted]",
+ "timestamp": "2026-09-14T10:28:19Z"
+}

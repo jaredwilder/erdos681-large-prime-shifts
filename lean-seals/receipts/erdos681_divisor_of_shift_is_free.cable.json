@@ -1,0 +1,66 @@
+{
+ "schema": "oracle.msl.cable.v1",
+ "id": "erdos681_divisor_of_shift_is_free",
+ "spec": {
+  "id": "erdos681_divisor_of_shift_is_free",
+  "imports": "Mathlib",
+  "hypotheses": [
+   "(p q k : Nat)",
+   "(hp : Nat.Prime p)",
+   "(hq : Nat.Prime q)",
+   "(hqp : q < p)",
+   "(hk : 1 \u2264 k)",
+   "(hdiv : q \u2223 k - 1)"
+  ],
+  "conclusion": "\u00ac q \u2223 p - 1 + k",
+  "proof": "by\n  intro h\n  have e : p - 1 + k = p + (k - 1) := by omega\n  rw [e] at h\n  have hqp' : q \u2223 p := (Nat.dvd_add_left hdiv).mp h\n  rcases hp.eq_one_or_self_of_dvd q hqp' with h1 | h1\n  \u00b7 exact hq.one_lt.ne' h1\n  \u00b7 omega"
+ },
+ "formal_status": "KERNEL_CHECKED",
+ "events": [],
+ "axioms": [
+  "Quot.sound",
+  "propext"
+ ],
+ "attempts": [
+  {
+   "tactic": "(supplied proof)",
+   "status": "VERIFIED",
+   "seconds": 82.6,
+   "errors": [],
+   "exitCode": 0,
+   "resource_limit": null
+  }
+ ],
+ "budget_history": [
+  {
+   "tier_seconds": 120.0,
+   "outcome": "UNDECIDED_RESOURCE[wall-clock timeout (exit 124)]"
+  },
+  {
+   "tier_seconds": 600.0,
+   "outcome": "KERNEL_CHECKED"
+  }
+ ],
+ "kernel_result": {
+  "status": "VERIFIED",
+  "file": "oracle/frontier_formalizer/cable/theorems/msl_erdos681_divisor_of_shift_is_free.lean",
+  "backend": "wsl",
+  "project": "/root/erdosfire-bench/proofs",
+  "needsMathlib": true,
+  "exitCode": 0,
+  "seconds": 82.2,
+  "declarations": [
+   {
+    "declaration": "msl_erdos681_divisor_of_shift_is_free",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Quot.sound"
+    ]
+   }
+  ],
+  "errors": []
+ },
+ "lean_result_block": "LEAN_RESULT erdos681_divisor_of_shift_is_free\n  FORMAL_STATUS KERNEL_CHECKED\n  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_divisor_of_shift_is_free.lean\n  THEOREMS msl_erdos681_divisor_of_shift_is_free\n  BACKEND wsl\n  AXIOMS Quot.sound, propext\n  TACTIC (supplied proof)\n  BUDGET 120s:UNDECIDED_RESOURCE[wall-clock timeout (exit 124)] -> 600s:KERNEL_CHECKED\n  FAILURE NONE",
+ "timestamp": "2026-09-13T20:58:06Z"
+}

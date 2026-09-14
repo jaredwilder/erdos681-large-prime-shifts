@@ -1,0 +1,5 @@
+{"id":"erdos681_parity_kills_even_shift",
+ "imports":"Mathlib",
+ "hypotheses":["(n k : Nat)","(hn : 2 ∣ n)","(hk : 2 ∣ k)","(hk2 : 2 ≤ k)"],
+ "conclusion":"¬ (k ^ 2 < Nat.minFac (n + k))",
+ "proof":"by\n  have hm : Nat.minFac (n + k) ≤ 2 := Nat.minFac_le_of_dvd (le_refl 2) (dvd_add hn hk)\n  have : 4 ≤ k ^ 2 := by nlinarith\n  omega"}

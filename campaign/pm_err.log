@@ -1,0 +1,17 @@
+{
+ "status": "UNVERIFIED",
+ "file": "oracle/frontier_formalizer/cable/theorems/msl_erdos681_powMod_correct.lean",
+ "backend": "wsl",
+ "project": "/root/erdosfire-bench/proofs",
+ "needsMathlib": true,
+ "exitCode": 1,
+ "seconds": 43.2,
+ "declarations": [
+  {
+   "declaration": "msl_erdos681_powMod_correct",
+   "clean": false,
+   "axioms": []
+  }
+ ],
+ "errors": []
+}

@@ -1,0 +1,56 @@
+{
+ "schema": "oracle.msl.cable.v1",
+ "id": "erdos681_trialdiv_999997304513_2_100000",
+ "spec": {
+  "id": "erdos681_trialdiv_999997304513_2_100000",
+  "imports": "none",
+  "set_options": [
+   "set_option maxRecDepth 200000",
+   "set_option maxHeartbeats 0"
+  ],
+  "definitions": "def noDivIn (m lo n : Nat) : Bool := match n with\n  | 0 => true\n  | n + 1 => (m % (lo + n) != 0) && noDivIn m lo n",
+  "hypotheses": [],
+  "conclusion": "noDivIn 999997304513 2 99998 = true",
+  "proof": "by decide +kernel"
+ },
+ "formal_status": "KERNEL_FAILED",
+ "events": [
+  "RAW[exit 1 with no captured error line]"
+ ],
+ "axioms": [],
+ "attempts": [
+  {
+   "tactic": "(supplied proof)",
+   "status": "UNVERIFIED",
+   "seconds": 23.9,
+   "errors": [],
+   "exitCode": 1,
+   "resource_limit": null
+  }
+ ],
+ "budget_history": [
+  {
+   "tier_seconds": 300.0,
+   "outcome": "KERNEL_FAILED"
+  }
+ ],
+ "kernel_result": {
+  "status": "UNVERIFIED",
+  "file": "oracle/frontier_formalizer/cable/theorems/msl_erdos681_trialdiv_999997304513_2_100000.lean",
+  "backend": "windows",
+  "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+  "needsMathlib": false,
+  "exitCode": 1,
+  "seconds": 23.9,
+  "declarations": [
+   {
+    "declaration": "msl_erdos681_trialdiv_999997304513_2_100000",
+    "clean": false,
+    "axioms": []
+   }
+  ],
+  "errors": []
+ },
+ "lean_result_block": "LEAN_RESULT erdos681_trialdiv_999997304513_2_100000\n  FORMAL_STATUS KERNEL_FAILED\n  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_trialdiv_999997304513_2_100000.lean\n  THEOREMS msl_erdos681_trialdiv_999997304513_2_100000\n  BACKEND windows\n  AXIOMS -\n  TACTIC (supplied proof)\n  BUDGET 300s:KERNEL_FAILED\n  FAILURE RAW[exit 1 with no captured error line]\n  LAW KERNEL_FAILED does not refute the claim \u2014 the FAILURE line names what actually broke",
+ "timestamp": "2026-09-14T10:21:47Z"
+}

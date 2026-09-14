@@ -1,0 +1,58 @@
+{
+ "schema": "oracle.msl.cable.v1",
+ "id": "erdos681_N42_S6_mertens_ratio_core",
+ "spec": {
+  "id": "erdos681_N42_S6_mertens_ratio_core",
+  "imports": "none",
+  "hypotheses": [
+   "(k K : Nat)",
+   "(hk : k \u2264 K)"
+  ],
+  "conclusion": "k * k \u2264 (2 * K) * (2 * K)",
+  "proof": "Nat.mul_le_mul (by omega) (by omega)"
+ },
+ "formal_status": "KERNEL_CHECKED",
+ "events": [],
+ "axioms": [
+  "Quot.sound",
+  "propext"
+ ],
+ "attempts": [
+  {
+   "tactic": "(supplied proof)",
+   "status": "VERIFIED",
+   "seconds": 19.8,
+   "errors": [],
+   "exitCode": 0,
+   "resource_limit": null
+  }
+ ],
+ "budget_history": [
+  {
+   "tier_seconds": 120.0,
+   "outcome": "KERNEL_CHECKED"
+  }
+ ],
+ "kernel_result": {
+  "status": "VERIFIED",
+  "file": "oracle/frontier_formalizer/cable/theorems/msl_erdos681_N42_S6_mertens_ratio_core.lean",
+  "backend": "windows",
+  "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+  "needsMathlib": false,
+  "exitCode": 0,
+  "seconds": 19.8,
+  "declarations": [
+   {
+    "declaration": "msl_erdos681_N42_S6_mertens_ratio_core",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Quot.sound"
+    ]
+   }
+  ],
+  "errors": []
+ },
+ "lean_result_block": "LEAN_RESULT erdos681_N42_S6_mertens_ratio_core\n  FORMAL_STATUS KERNEL_CHECKED\n  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_N42_S6_mertens_ratio_core.lean\n  THEOREMS msl_erdos681_N42_S6_mertens_ratio_core\n  BACKEND windows\n  AXIOMS Quot.sound, propext\n  TACTIC (supplied proof)\n  BUDGET 120s:KERNEL_CHECKED\n  FAILURE NONE",
+ "timestamp": "2026-09-13T21:51:25Z"
+}

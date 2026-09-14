@@ -1,0 +1,10 @@
+LEAN_RESULT erdos681_lucas_prime_999997304513_v2
+  FORMAL_STATUS NO_KERNEL_BACKEND
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_lucas_prime_999997304513_v2.lean
+  THEOREMS msl_erdos681_lucas_prime_999997304513_v2
+  BACKEND None
+  AXIOMS -
+  TACTIC (supplied proof)
+  BUDGET 120s:NO_KERNEL_BACKEND
+  FAILURE ENV.FAIL BACKEND[this source imports Mathlib and no reachable Lean project has Mathlib built — the proof was NOT checked, and is NOT refuted]
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_lucas_prime_999997304513_v2.cable.json

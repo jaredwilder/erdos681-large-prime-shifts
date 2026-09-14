@@ -1,0 +1,66 @@
+{
+ "schema": "oracle.msl.cable.v1",
+ "id": "erdos681_large_prime_hits_one_shift",
+ "spec": {
+  "id": "erdos681_large_prime_hits_one_shift",
+  "imports": "Mathlib",
+  "hypotheses": [
+   "(p r K k k' : Nat)",
+   "(hk : k < k')",
+   "(hk' : k' \u2264 K)",
+   "(hr : K < r)",
+   "(h1 : r \u2223 p + k)",
+   "(h2 : r \u2223 p + k')"
+  ],
+  "conclusion": "False",
+  "proof": "by\n  have hd : r \u2223 (p + k') - (p + k) := Nat.dvd_sub h2 h1\n  have e : (p + k') - (p + k) = k' - k := by omega\n  rw [e] at hd\n  have := Nat.le_of_dvd (by omega) hd\n  omega"
+ },
+ "formal_status": "KERNEL_CHECKED",
+ "events": [],
+ "axioms": [
+  "Quot.sound",
+  "propext"
+ ],
+ "attempts": [
+  {
+   "tactic": "(supplied proof)",
+   "status": "VERIFIED",
+   "seconds": 17.5,
+   "errors": [],
+   "exitCode": 0,
+   "resource_limit": null
+  }
+ ],
+ "budget_history": [
+  {
+   "tier_seconds": 120.0,
+   "outcome": "UNDECIDED_RESOURCE[wall-clock timeout (exit 124)]"
+  },
+  {
+   "tier_seconds": 600.0,
+   "outcome": "KERNEL_CHECKED"
+  }
+ ],
+ "kernel_result": {
+  "status": "VERIFIED",
+  "file": "oracle/frontier_formalizer/cable/theorems/msl_erdos681_large_prime_hits_one_shift.lean",
+  "backend": "wsl",
+  "project": "/root/erdosfire-bench/proofs",
+  "needsMathlib": true,
+  "exitCode": 0,
+  "seconds": 17.2,
+  "declarations": [
+   {
+    "declaration": "msl_erdos681_large_prime_hits_one_shift",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Quot.sound"
+    ]
+   }
+  ],
+  "errors": []
+ },
+ "lean_result_block": "LEAN_RESULT erdos681_large_prime_hits_one_shift\n  FORMAL_STATUS KERNEL_CHECKED\n  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_large_prime_hits_one_shift.lean\n  THEOREMS msl_erdos681_large_prime_hits_one_shift\n  BACKEND wsl\n  AXIOMS Quot.sound, propext\n  TACTIC (supplied proof)\n  BUDGET 120s:UNDECIDED_RESOURCE[wall-clock timeout (exit 124)] -> 600s:KERNEL_CHECKED\n  FAILURE NONE",
+ "timestamp": "2026-09-13T21:26:52Z"
+}

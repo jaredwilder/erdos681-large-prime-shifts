@@ -1,0 +1,5 @@
+{"claim": "For every sufficiently large integer n there is k>0 with n+k composite and least prime factor of n+k greater than k^2; almost all primes p have p+h composite with least prime factor exceeding (h+1)^2; Rankin least prime factor shifted integers",
+ "domain": "mathematics",
+ "novelty_target": "paper",
+ "entities": ["Erdos problem 681", "Rankin", "least prime factor", "Jacobsthal function", "almost primes in short intervals"],
+ "min_corpus": 5}

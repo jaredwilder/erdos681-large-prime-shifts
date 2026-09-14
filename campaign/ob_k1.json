@@ -1,0 +1,5 @@
+{"id":"erdos681_k1_composite_witness",
+ "imports":"Mathlib",
+ "hypotheses":["(n : Nat)","(h2 : 2 ≤ n + 1)","(hc : ¬ Nat.Prime (n + 1))"],
+ "conclusion":"0 < 1 ∧ ¬ Nat.Prime (n + 1) ∧ 1 ^ 2 < Nat.minFac (n + 1)",
+ "proof":"by\n  refine ⟨by norm_num, hc, ?_⟩\n  have := (Nat.minFac_prime (by omega : n + 1 ≠ 1)).two_le\n  simpa using (by omega : 1 < Nat.minFac (n + 1))"}

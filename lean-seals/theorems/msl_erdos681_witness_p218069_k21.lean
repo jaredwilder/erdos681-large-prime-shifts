@@ -1,0 +1,4 @@
+set_option autoImplicit false
+set_option maxRecDepth 200000
+
+theorem msl_erdos681_witness_p218069_k21  : (218068 + 21 == 467 * 467 && (List.range 467).all (fun q => q < 2 || (218068 + 21) % q != 0) && decide (21 ^ 2 < 467) && decide (21 ^ 4 < 218068 + 21)) = true := by decide

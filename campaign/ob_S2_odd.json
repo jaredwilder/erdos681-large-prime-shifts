@@ -1,0 +1,5 @@
+{"id":"erdos681_N42_S2_endpoint_odd",
+ "imports":"none",
+ "hypotheses":["(p k : Nat)","(hp : p % 2 = 1)","(hk : k % 2 = 1)"],
+ "conclusion":"(p - 1 + k) % 2 = 1 ∧ (k - 1 + 1) ^ 2 = k ^ 2",
+ "proof":"⟨by omega, by rw [show k - 1 + 1 = k by omega]⟩"}

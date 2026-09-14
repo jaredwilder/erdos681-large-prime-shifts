@@ -1,0 +1,164 @@
+{
+ "schema": "oracle.msl.cable.v1",
+ "id": "erdos681_bundle_equivalence",
+ "spec": {
+  "id": "erdos681_bundle_equivalence",
+  "imports": "Mathlib",
+  "definitions": "theorem msl_erdos681_fourth_root_necessity (n k : Nat) (hpos : 0 < n + k) (hc : \u00ac Nat.Prime (n + k)) (hk : k ^ 2 < Nat.minFac (n + k)) : k ^ 4 < n + k := by\n  have h := Nat.minFac_sq_le_self hpos hc\n  have h2 : (k ^ 2) ^ 2 < (Nat.minFac (n + k)) ^ 2 := Nat.pow_lt_pow_left hk (by norm_num)\n  calc k ^ 4 = (k ^ 2) ^ 2 := by ring\n    _ < (Nat.minFac (n + k)) ^ 2 := h2\n    _ \u2264 n + k := h\n\ntheorem msl_erdos681_parity_kills_even_shift (n k : Nat) (hn : 2 \u2223 n) (hk : 2 \u2223 k) (hk2 : 2 \u2264 k) : \u00ac (k ^ 2 < Nat.minFac (n + k)) := by\n  have hm : Nat.minFac (n + k) \u2264 2 := Nat.minFac_le_of_dvd (le_refl 2) (dvd_add hn hk)\n  have : 4 \u2264 k ^ 2 := by nlinarith\n  omega\n\ntheorem msl_erdos681_k1_composite_witness (n : Nat) (h2 : 2 \u2264 n + 1) (hc : \u00ac Nat.Prime (n + 1)) : 0 < 1 \u2227 \u00ac Nat.Prime (n + 1) \u2227 1 ^ 2 < Nat.minFac (n + 1) := by\n  refine \u27e8by norm_num, hc, ?_\u27e9\n  have := (Nat.minFac_prime (by omega : n + 1 \u2260 1)).two_le\n  simpa using (by omega : 1 < Nat.minFac (n + 1))\n\ntheorem msl_erdos681_residual_implies_parent (hR : \u2203 P0 : Nat, \u2200 p : Nat, Nat.Prime p \u2192 P0 < p \u2192 \u2203 h : Nat, 2 \u2264 h \u2227 \u00ac Nat.Prime (p + h) \u2227 (h + 1) ^ 2 < Nat.minFac (p + h)) : \u2203 N0 : Nat, \u2200 n : Nat, N0 \u2264 n \u2192 \u2203 k : Nat, 0 < k \u2227 1 < n + k \u2227 \u00ac Nat.Prime (n + k) \u2227 k ^ 2 < Nat.minFac (n + k) := by\n  obtain \u27e8P0, hP\u27e9 := hR\n  refine \u27e8P0 + 1, fun n hn => ?_\u27e9\n  by_cases hp : Nat.Prime (n + 1)\n  \u00b7 obtain \u27e8h, h2, hc, hq\u27e9 := hP (n + 1) hp (by omega)\n    refine \u27e8h + 1, by omega, by omega, ?_, ?_\u27e9\n    \u00b7 have e : n + (h + 1) = n + 1 + h := by ring\n      rw [e]; exact hc\n    \u00b7 have e : n + (h + 1) = n + 1 + h := by ring\n      rw [e]; exact hq\n  \u00b7 refine \u27e81, by omega, by omega, hp, ?_\u27e9\n    have := (Nat.minFac_prime (by omega : n + 1 \u2260 1)).two_le\n    simp only [one_pow]; omega\n\ntheorem msl_erdos681_parent_implies_residual_r2 (hT : \u2203 N0 : Nat, \u2200 n : Nat, N0 \u2264 n \u2192 \u2203 k : Nat, 0 < k \u2227 1 < n + k \u2227 \u00ac Nat.Prime (n + k) \u2227 k ^ 2 < Nat.minFac (n + k)) : \u2203 P0 : Nat, \u2200 p : Nat, Nat.Prime p \u2192 P0 < p \u2192 \u2203 h : Nat, 2 \u2264 h \u2227 \u00ac Nat.Prime (p + h) \u2227 (h + 1) ^ 2 < Nat.minFac (p + h) := by\n  obtain \u27e8N0, hN\u27e9 := hT\n  refine \u27e8N0 + 2, fun p hp hlt => ?_\u27e9\n  obtain \u27e8k, hk0, h1, hc, hq\u27e9 := hN (p - 1) (by omega)\n  have hk1 : k \u2260 1 := by\n    rintro rfl\n    have e : p - 1 + 1 = p := by omega\n    rw [e] at hc; exact hc hp\n  refine \u27e8k - 1, ?_, ?_, ?_\u27e9\n  \u00b7 by_contra hlt2\n    have hk : k = 2 := by omega\n    subst hk\n    have hodd : p % 2 = 1 := by\n      rcases hp.eq_two_or_odd with h | h\n      \u00b7 omega\n      \u00b7 exact h\n    have hdvd : 2 \u2223 p - 1 + 2 := Nat.dvd_of_mod_eq_zero (by omega)\n    have := Nat.minFac_le_of_dvd (le_refl 2) hdvd\n    omega\n  \u00b7 have e : p + (k - 1) = p - 1 + k := by omega\n    rw [e]; exact hc\n  \u00b7 have e : p + (k - 1) = p - 1 + k := by omega\n    have e2 : k - 1 + 1 = k := by omega\n    rw [e, e2]; exact hq\n\ntheorem msl_erdos681_divisor_of_shift_is_free (p q k : Nat) (hp : Nat.Prime p) (hq : Nat.Prime q) (hqp : q < p) (hk : 1 \u2264 k) (hdiv : q \u2223 k - 1) : \u00ac q \u2223 p - 1 + k := by\n  intro h\n  have e : p - 1 + k = p + (k - 1) := by omega\n  rw [e] at h\n  have hqp' : q \u2223 p := (Nat.dvd_add_left hdiv).mp h\n  rcases hp.eq_one_or_self_of_dvd q hqp' with h1 | h1\n  \u00b7 exact hq.one_lt.ne' h1\n  \u00b7 omega\n\ntheorem msl_erdos681_fixed_K_in_window (p K k : Nat) (hp : (K + 1) ^ 4 < p) (hk : k \u2264 K) (hk1 : 1 \u2264 k) : k ^ 4 < p - 1 + k := by\n  have h1 : k ^ 4 \u2264 K ^ 4 := Nat.pow_le_pow_left hk 4\n  have h2 : K ^ 4 < (K + 1) ^ 4 := Nat.pow_lt_pow_left (by omega) (by norm_num)\n  omega\n\ndef IsLPF681 (p m : \u2115) : Prop := p.Prime \u2227 p \u2223 m \u2227 \u2200 q, q.Prime \u2227 q \u2223 m \u2192 p \u2264 q\n\ntheorem msl_erdos681_fc_lpf_bridge (m k : Nat) (hm : 1 < m) : (\u2200 p, IsLPF681 p m \u2192 p > k ^ 2) \u2194 k ^ 2 < Nat.minFac m := by\n  have hne : m \u2260 1 := by omega\n  have hmp := Nat.minFac_prime hne\n  constructor\n  \u00b7 intro h\n    exact h _ \u27e8hmp, Nat.minFac_dvd m, fun q hq => Nat.minFac_le_of_dvd hq.1.two_le hq.2\u27e9\n  \u00b7 intro h p hp\n    have h1 : Nat.minFac m \u2264 p := Nat.minFac_le_of_dvd hp.1.two_le hp.2.1\n    have h2 : p \u2264 Nat.minFac m := hp.2.2 _ \u27e8hmp, Nat.minFac_dvd m\u27e9\n    omega\n\ntheorem msl_erdos681_large_prime_hits_one_shift (p r K k k' : Nat) (hk : k < k') (hk' : k' \u2264 K) (hr : K < r) (h1 : r \u2223 p + k) (h2 : r \u2223 p + k') : False := by\n  have hd : r \u2223 (p + k') - (p + k) := Nat.dvd_sub h2 h1\n  have e : (p + k') - (p + k) = k' - k := by omega\n  rw [e] at hd\n  have := Nat.le_of_dvd (by omega) hd\n  omega\n\ntheorem msl_erdos681_N42_S6_mertens_ratio_core (k K : Nat) (hk : k \u2264 K) : k * k \u2264 (2 * K) * (2 * K) := Nat.mul_le_mul (by omega) (by omega)\n\ntheorem msl_erdos681_N42_S2_endpoint_odd (p k : Nat) (hp : p % 2 = 1) (hk : k % 2 = 1) : (p - 1 + k) % 2 = 1 \u2227 (k - 1 + 1) ^ 2 = k ^ 2 := \u27e8by omega, by rw [show k - 1 + 1 = k by omega]\u27e9\n\ntheorem msl_erdos681_exempt_family_core_r2 (p q k M : Nat) (hp : 1 \u2264 p) (hk : 1 \u2264 k) (hM : M \u2223 k - 1) (hq : q \u2223 M) (h : q \u2223 p - 1 + k) : q \u2223 p := by\n  have h1 : q \u2223 k - 1 := Nat.dvd_trans hq hM\n  have e : p - 1 + k = p + (k - 1) := by omega\n  rw [e] at h\n  exact (Nat.dvd_add_left h1).mp h",
+  "hypotheses": [],
+  "conclusion": "(\u2203 N0 : Nat, \u2200 n : Nat, N0 \u2264 n \u2192 \u2203 k : Nat, 0 < k \u2227 1 < n + k \u2227 \u00ac Nat.Prime (n + k) \u2227 k ^ 2 < Nat.minFac (n + k)) \u2194 (\u2203 P0 : Nat, \u2200 p : Nat, Nat.Prime p \u2192 P0 < p \u2192 \u2203 h : Nat, 2 \u2264 h \u2227 \u00ac Nat.Prime (p + h) \u2227 (h + 1) ^ 2 < Nat.minFac (p + h))",
+  "proof": "\u27e8fun h => msl_erdos681_parent_implies_residual_r2 h, fun h => msl_erdos681_residual_implies_parent h\u27e9"
+ },
+ "formal_status": "KERNEL_CHECKED",
+ "events": [],
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "attempts": [
+  {
+   "tactic": "(supplied proof)",
+   "status": "VERIFIED",
+   "seconds": 397.8,
+   "errors": [],
+   "exitCode": 0,
+   "resource_limit": null
+  }
+ ],
+ "budget_history": [
+  {
+   "tier_seconds": 120.0,
+   "outcome": "UNDECIDED_RESOURCE[wall-clock timeout (exit 124)]"
+  },
+  {
+   "tier_seconds": 600.0,
+   "outcome": "KERNEL_CHECKED"
+  }
+ ],
+ "kernel_result": {
+  "status": "VERIFIED",
+  "file": "oracle/frontier_formalizer/cable/theorems/msl_erdos681_bundle_equivalence.lean",
+  "backend": "wsl",
+  "project": "/root/erdosfire-bench/proofs",
+  "needsMathlib": true,
+  "exitCode": 0,
+  "seconds": 397.2,
+  "declarations": [
+   {
+    "declaration": "msl_erdos681_fourth_root_necessity",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ]
+   },
+   {
+    "declaration": "msl_erdos681_parity_kills_even_shift",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ]
+   },
+   {
+    "declaration": "msl_erdos681_k1_composite_witness",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ]
+   },
+   {
+    "declaration": "msl_erdos681_residual_implies_parent",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ]
+   },
+   {
+    "declaration": "msl_erdos681_parent_implies_residual_r2",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ]
+   },
+   {
+    "declaration": "msl_erdos681_divisor_of_shift_is_free",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Quot.sound"
+    ]
+   },
+   {
+    "declaration": "msl_erdos681_fixed_K_in_window",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Quot.sound"
+    ]
+   },
+   {
+    "declaration": "msl_erdos681_fc_lpf_bridge",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ]
+   },
+   {
+    "declaration": "msl_erdos681_large_prime_hits_one_shift",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Quot.sound"
+    ]
+   },
+   {
+    "declaration": "msl_erdos681_N42_S6_mertens_ratio_core",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Quot.sound"
+    ]
+   },
+   {
+    "declaration": "msl_erdos681_N42_S2_endpoint_odd",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Quot.sound"
+    ]
+   },
+   {
+    "declaration": "msl_erdos681_exempt_family_core_r2",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Quot.sound"
+    ]
+   },
+   {
+    "declaration": "msl_erdos681_bundle_equivalence",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ]
+   }
+  ],
+  "errors": []
+ },
+ "lean_result_block": "LEAN_RESULT erdos681_bundle_equivalence\n  FORMAL_STATUS KERNEL_CHECKED\n  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_bundle_equivalence.lean\n  THEOREMS msl_erdos681_bundle_equivalence\n  BACKEND wsl\n  AXIOMS Classical.choice, Quot.sound, propext\n  TACTIC (supplied proof)\n  BUDGET 120s:UNDECIDED_RESOURCE[wall-clock timeout (exit 124)] -> 600s:KERNEL_CHECKED\n  FAILURE NONE",
+ "timestamp": "2026-09-13T22:11:17Z"
+}

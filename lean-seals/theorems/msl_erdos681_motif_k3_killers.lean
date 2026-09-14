@@ -1,0 +1,3 @@
+set_option autoImplicit false
+
+theorem msl_erdos681_motif_k3_killers (p : Nat) : (p % 3 = 1 → (p + 2) % 3 = 0) ∧ (p % 5 = 3 → (p + 2) % 5 = 0) ∧ (p % 7 = 5 → (p + 2) % 7 = 0) ∧ (p % 11 = 5 → (p + 6) % 11 = 0) ∧ (p % 11 = 7 → (p + 4) % 11 = 0) ∧ (p % 13 = 7 → (p + 6) % 13 = 0) ∧ (p % 13 = 9 → (p + 4) % 13 = 0) := by omega

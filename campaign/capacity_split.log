@@ -1,0 +1,2 @@
+{"n": 40, "means": {"shifts": 498.35, "small_q_kills": 422.1, "singleton_big_q": 36.475, "prime_exceptions": 39.775, "distinct_small_q": 59.9, "max_class_load": 166.225}, "min_prime_exceptions": 29, "max_singleton_big_q": 47}
+HASH 23815c5502ead725e36ecbf2fa64f6d07c2bc5349b57e5e575c0b162731feba4

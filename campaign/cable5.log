@@ -1,0 +1,11 @@
+LEAN_RESULT erdos681_parent_implies_residual
+  FORMAL_STATUS KERNEL_FAILED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_parent_implies_residual.lean
+  THEOREMS msl_erdos681_parent_implies_residual
+  BACKEND wsl
+  AXIOMS Classical.choice, Quot.sound, propext, sorryAx
+  TACTIC (supplied proof)
+  BUDGET 120s:UNDECIDED_RESOURCE[wall-clock timeout (exit 124)] -> 600s:KERNEL_FAILED
+  FAILURE ((supplied proof)) RAW[/tmp/oracle_lean_EhKIuB58.lean:18:68: error: omega could not prove the goal:]
+  LAW KERNEL_FAILED does not refute the claim — the FAILURE line names what actually broke
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_parent_implies_residual.cable.json

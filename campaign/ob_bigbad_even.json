@@ -1,0 +1,3 @@
+{"id":"erdos681_bigbad_even_shift","imports":"none","hypotheses":["(k : Nat)","(hk : 2 ≤ k)","(he : k % 2 = 0)"],
+ "conclusion":"(999997304512 + k) % 2 = 0 ∧ 2 ≤ k * k",
+ "proof":"⟨by omega, Nat.le_trans hk (Nat.le_mul_of_pos_left k (by omega))⟩"}

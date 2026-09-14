@@ -1,0 +1,63 @@
+{
+ "schema": "oracle.msl.cable.v1",
+ "id": "erdos681_parent_implies_residual_r2",
+ "spec": {
+  "id": "erdos681_parent_implies_residual_r2",
+  "imports": "Mathlib",
+  "hypotheses": [
+   "(hT : \u2203 N0 : Nat, \u2200 n : Nat, N0 \u2264 n \u2192 \u2203 k : Nat, 0 < k \u2227 1 < n + k \u2227 \u00ac Nat.Prime (n + k) \u2227 k ^ 2 < Nat.minFac (n + k))"
+  ],
+  "conclusion": "\u2203 P0 : Nat, \u2200 p : Nat, Nat.Prime p \u2192 P0 < p \u2192 \u2203 h : Nat, 2 \u2264 h \u2227 \u00ac Nat.Prime (p + h) \u2227 (h + 1) ^ 2 < Nat.minFac (p + h)",
+  "proof": "by\n  obtain \u27e8N0, hN\u27e9 := hT\n  refine \u27e8N0 + 2, fun p hp hlt => ?_\u27e9\n  obtain \u27e8k, hk0, h1, hc, hq\u27e9 := hN (p - 1) (by omega)\n  have hk1 : k \u2260 1 := by\n    rintro rfl\n    have e : p - 1 + 1 = p := by omega\n    rw [e] at hc; exact hc hp\n  refine \u27e8k - 1, ?_, ?_, ?_\u27e9\n  \u00b7 by_contra hlt2\n    have hk : k = 2 := by omega\n    subst hk\n    have hodd : p % 2 = 1 := by\n      rcases hp.eq_two_or_odd with h | h\n      \u00b7 omega\n      \u00b7 exact h\n    have hdvd : 2 \u2223 p - 1 + 2 := Nat.dvd_of_mod_eq_zero (by omega)\n    have := Nat.minFac_le_of_dvd (le_refl 2) hdvd\n    omega\n  \u00b7 have e : p + (k - 1) = p - 1 + k := by omega\n    rw [e]; exact hc\n  \u00b7 have e : p + (k - 1) = p - 1 + k := by omega\n    have e2 : k - 1 + 1 = k := by omega\n    rw [e, e2]; exact hq"
+ },
+ "formal_status": "KERNEL_CHECKED",
+ "events": [],
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "attempts": [
+  {
+   "tactic": "(supplied proof)",
+   "status": "VERIFIED",
+   "seconds": 115.5,
+   "errors": [],
+   "exitCode": 0,
+   "resource_limit": null
+  }
+ ],
+ "budget_history": [
+  {
+   "tier_seconds": 120.0,
+   "outcome": "UNDECIDED_RESOURCE[wall-clock timeout (exit 124)]"
+  },
+  {
+   "tier_seconds": 600.0,
+   "outcome": "KERNEL_CHECKED"
+  }
+ ],
+ "kernel_result": {
+  "status": "VERIFIED",
+  "file": "oracle/frontier_formalizer/cable/theorems/msl_erdos681_parent_implies_residual_r2.lean",
+  "backend": "wsl",
+  "project": "/root/erdosfire-bench/proofs",
+  "needsMathlib": true,
+  "exitCode": 0,
+  "seconds": 114.0,
+  "declarations": [
+   {
+    "declaration": "msl_erdos681_parent_implies_residual_r2",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ]
+   }
+  ],
+  "errors": []
+ },
+ "lean_result_block": "LEAN_RESULT erdos681_parent_implies_residual_r2\n  FORMAL_STATUS KERNEL_CHECKED\n  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_parent_implies_residual_r2.lean\n  THEOREMS msl_erdos681_parent_implies_residual_r2\n  BACKEND wsl\n  AXIOMS Classical.choice, Quot.sound, propext\n  TACTIC (supplied proof)\n  BUDGET 120s:UNDECIDED_RESOURCE[wall-clock timeout (exit 124)] -> 600s:KERNEL_CHECKED\n  FAILURE NONE",
+ "timestamp": "2026-09-13T20:51:51Z"
+}

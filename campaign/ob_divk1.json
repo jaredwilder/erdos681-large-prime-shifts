@@ -1,0 +1,5 @@
+{"id":"erdos681_divisor_of_shift_is_free",
+ "imports":"Mathlib",
+ "hypotheses":["(p q k : Nat)","(hp : Nat.Prime p)","(hq : Nat.Prime q)","(hqp : q < p)","(hk : 1 ≤ k)","(hdiv : q ∣ k - 1)"],
+ "conclusion":"¬ q ∣ p - 1 + k",
+ "proof":"by\n  intro h\n  have e : p - 1 + k = p + (k - 1) := by omega\n  rw [e] at h\n  have hqp' : q ∣ p := (Nat.dvd_add_left hdiv).mp h\n  rcases hp.eq_one_or_self_of_dvd q hqp' with h1 | h1\n  · exact hq.one_lt.ne' h1\n  · omega"}

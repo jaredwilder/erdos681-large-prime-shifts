@@ -1,0 +1,5 @@
+{"id":"erdos681_large_prime_hits_one_shift",
+ "imports":"Mathlib",
+ "hypotheses":["(p r K k k' : Nat)","(hk : k < k')","(hk' : k' ≤ K)","(hr : K < r)","(h1 : r ∣ p + k)","(h2 : r ∣ p + k')"],
+ "conclusion":"False",
+ "proof":"by\n  have hd : r ∣ (p + k') - (p + k) := Nat.dvd_sub h2 h1\n  have e : (p + k') - (p + k) = k' - k := by omega\n  rw [e] at hd\n  have := Nat.le_of_dvd (by omega) hd\n  omega"}

@@ -1,0 +1,59 @@
+{
+ "schema": "oracle.msl.cable.v1",
+ "id": "erdos681_residual_implies_parent",
+ "spec": {
+  "id": "erdos681_residual_implies_parent",
+  "imports": "Mathlib",
+  "hypotheses": [
+   "(hR : \u2203 P0 : Nat, \u2200 p : Nat, Nat.Prime p \u2192 P0 < p \u2192 \u2203 h : Nat, 2 \u2264 h \u2227 \u00ac Nat.Prime (p + h) \u2227 (h + 1) ^ 2 < Nat.minFac (p + h))"
+  ],
+  "conclusion": "\u2203 N0 : Nat, \u2200 n : Nat, N0 \u2264 n \u2192 \u2203 k : Nat, 0 < k \u2227 1 < n + k \u2227 \u00ac Nat.Prime (n + k) \u2227 k ^ 2 < Nat.minFac (n + k)",
+  "proof": "by\n  obtain \u27e8P0, hP\u27e9 := hR\n  refine \u27e8P0 + 1, fun n hn => ?_\u27e9\n  by_cases hp : Nat.Prime (n + 1)\n  \u00b7 obtain \u27e8h, h2, hc, hq\u27e9 := hP (n + 1) hp (by omega)\n    refine \u27e8h + 1, by omega, by omega, ?_, ?_\u27e9\n    \u00b7 have e : n + (h + 1) = n + 1 + h := by ring\n      rw [e]; exact hc\n    \u00b7 have e : n + (h + 1) = n + 1 + h := by ring\n      rw [e]; exact hq\n  \u00b7 refine \u27e81, by omega, by omega, hp, ?_\u27e9\n    have := (Nat.minFac_prime (by omega : n + 1 \u2260 1)).two_le\n    simp only [one_pow]; omega"
+ },
+ "formal_status": "KERNEL_CHECKED",
+ "events": [],
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext"
+ ],
+ "attempts": [
+  {
+   "tactic": "(supplied proof)",
+   "status": "VERIFIED",
+   "seconds": 138.2,
+   "errors": [],
+   "exitCode": 0,
+   "resource_limit": null
+  }
+ ],
+ "budget_history": [
+  {
+   "tier_seconds": 120.0,
+   "outcome": "KERNEL_CHECKED"
+  }
+ ],
+ "kernel_result": {
+  "status": "VERIFIED",
+  "file": "oracle/frontier_formalizer/cable/theorems/msl_erdos681_residual_implies_parent.lean",
+  "backend": "wsl",
+  "project": "/root/erdosfire-bench/proofs",
+  "needsMathlib": true,
+  "exitCode": 0,
+  "seconds": 114.1,
+  "declarations": [
+   {
+    "declaration": "msl_erdos681_residual_implies_parent",
+    "clean": true,
+    "axioms": [
+     "propext",
+     "Classical.choice",
+     "Quot.sound"
+    ]
+   }
+  ],
+  "errors": []
+ },
+ "lean_result_block": "LEAN_RESULT erdos681_residual_implies_parent\n  FORMAL_STATUS KERNEL_CHECKED\n  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_residual_implies_parent.lean\n  THEOREMS msl_erdos681_residual_implies_parent\n  BACKEND wsl\n  AXIOMS Classical.choice, Quot.sound, propext\n  TACTIC (supplied proof)\n  BUDGET 120s:KERNEL_CHECKED\n  FAILURE NONE",
+ "timestamp": "2026-09-13T20:39:19Z"
+}

@@ -1,0 +1,10 @@
+LEAN_RESULT erdos681_witness_p599303_k27
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_witness_p599303_k27.lean
+  THEOREMS msl_erdos681_witness_p599303_k27
+  BACKEND windows
+  AXIOMS -
+  TACTIC (supplied proof)
+  BUDGET 300s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_witness_p599303_k27.cable.json

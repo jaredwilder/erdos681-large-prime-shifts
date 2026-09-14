@@ -1,0 +1,7 @@
+{
+  "acquired": 30,
+  "corpus_source": "auto_acquired_litacq_patents",
+  "out": "oracle/evidence/erdos681/literature/corpus_n219.json",
+  "paper_count": 30,
+  "patent_count": 0
+}

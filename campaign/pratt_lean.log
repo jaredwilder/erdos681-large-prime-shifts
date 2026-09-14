@@ -1,0 +1,622 @@
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:61:120: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 2 ∨ q = 2 ∨ q = 37 ∨ q = 79 ∨ q = 193 ∨ q = 27697
+
+case inr.inr.inr.inr
+q : ℕ
+h✝ : q = 2 ∨ q = 2 ∨ q = 37 ∨ q = 79 ∨ q = 193 ∨ q = 27697
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:67:126: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 19 ∨ q = 173 ∨ q = 2535233
+
+case inr.inr.inr.inr.inr
+q : ℕ
+h✝ : q = 19 ∨ q = 173 ∨ q = 2535233
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:73:108: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 41 ∨ q = 41659
+
+case inr.inr
+q : ℕ
+h✝ : q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 41 ∨ q = 41659
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:80:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:80:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:80:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:80:64: warning: 'exact P_218626433' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:85:120: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 5 ∨ q = 149 ∨ q = 739
+
+case inr.inr.inr.inr
+q : ℕ
+h✝ : q = 5 ∨ q = 149 ∨ q = 739
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:91:114: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 2803 ∨ q = 29729971
+
+case inr.inr.inr
+q : ℕ
+h✝ : q = 2803 ∨ q = 29729971
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:97:126: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 769 ∨ q = 36947
+
+case inr.inr.inr.inr.inr
+q : ℕ
+h✝ : q = 769 ∨ q = 36947
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:103:120: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 709 ∨ q = 1667179
+
+case inr.inr.inr.inr
+q : ℕ
+h✝ : q = 709 ∨ q = 1667179
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:109:120: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 3 ∨ q = 3 ∨ q = 7 ∨ q = 19 ∨ q = 33199
+
+case inr.inr.inr.inr
+q : ℕ
+h✝ : q = 3 ∨ q = 3 ∨ q = 7 ∨ q = 19 ∨ q = 33199
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:116:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:116:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:116:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:116:64: warning: 'exact P_2145916963' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:122:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:122:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:122:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:122:108: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:122:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:122:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:122:86: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:122:108: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:128:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:128:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:128:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:128:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:128:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:128:86: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:133:114: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 3 ∨ q = 37 ∨ q = 1126123091
+
+case inr.inr.inr
+q : ℕ
+h✝ : q = 3 ∨ q = 37 ∨ q = 1126123091
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:139:108: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 3 ∨ q = 3 ∨ q = 3 ∨ q = 9042221
+
+case inr.inr
+q : ℕ
+h✝ : q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 3 ∨ q = 3 ∨ q = 3 ∨ q = 9042221
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:145:102: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 62499831553
+
+case inr
+q : ℕ
+h✝ : q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 62499831553
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:152:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:152:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:152:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:152:108: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:152:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:152:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:152:86: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:152:108: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:157:120: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 5 ∨ q = 223 ∨ q = 10729
+
+case inr.inr.inr.inr
+q : ℕ
+h✝ : q = 5 ∨ q = 223 ∨ q = 10729
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:163:114: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 3 ∨ q = 43 ∨ q = 645993091
+
+case inr.inr.inr
+q : ℕ
+h✝ : q = 3 ∨ q = 43 ∨ q = 645993091
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:170:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:170:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:170:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:170:108: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:170:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:170:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:170:86: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:170:108: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:175:108: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 41893 ∨ q = 372973
+
+case inr.inr
+q : ℕ
+h✝ : q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 41893 ∨ q = 372973
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:181:120: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 211 ∨ q = 1303 ∨ q = 90931
+
+case inr.inr.inr.inr
+q : ℕ
+h✝ : q = 211 ∨ q = 1303 ∨ q = 90931
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:187:120: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 5 ∨ q = 1933 ∨ q = 319339
+
+case inr.inr.inr.inr
+q : ℕ
+h✝ : q = 5 ∨ q = 1933 ∨ q = 319339
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:194:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:194:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:194:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:194:64: warning: 'exact P_166666217491' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:199:114: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 131 ∨ q = 454379
+
+case inr.inr.inr
+q : ℕ
+h✝ : q = 131 ∨ q = 454379
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:205:102: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 2 ∨ q = 714283789
+
+case inr
+q : ℕ
+h✝ : q = 2 ∨ q = 714283789
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:211:114: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 7 ∨ q = 2857135157
+
+case inr.inr.inr
+q : ℕ
+h✝ : q = 7 ∨ q = 2857135157
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:217:120: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 29 ∨ q = 2131 ∨ q = 674227
+
+case inr.inr.inr.inr
+q : ℕ
+h✝ : q = 29 ∨ q = 2131 ∨ q = 674227
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:224:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:224:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:224:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:224:108: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:224:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:224:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:224:86: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:224:108: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:230:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:230:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:230:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:230:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:230:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:230:86: warning: 'exact P_356378227' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:235:126: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 3943 ∨ q = 40879
+
+case inr.inr.inr.inr.inr
+q : ℕ
+h✝ : q = 3943 ∨ q = 40879
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:242:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:242:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:242:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:242:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:242:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:242:86: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:247:114: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 3 ∨ q = 5 ∨ q = 5 ∨ q = 5 ∨ q = 5 ∨ q = 66666487
+
+case inr.inr.inr
+q : ℕ
+h✝ : q = 3 ∨ q = 5 ∨ q = 5 ∨ q = 5 ∨ q = 5 ∨ q = 66666487
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:254:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:254:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:254:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:254:108: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:254:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:254:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:254:86: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:254:108: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:259:114: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 263 ∨ q = 2003
+
+case inr.inr.inr
+q : ℕ
+h✝ : q = 263 ∨ q = 2003
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:265:114: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 997 ∨ q = 14750093
+
+case inr.inr.inr
+q : ℕ
+h✝ : q = 997 ∨ q = 14750093
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:271:120: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 569 ∨ q = 564013
+
+case inr.inr.inr.inr
+q : ℕ
+h✝ : q = 569 ∨ q = 564013
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:278:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:278:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:278:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:278:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:278:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:278:86: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:283:126: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 73 ∨ q = 17562299
+
+case inr.inr.inr.inr.inr
+q : ℕ
+h✝ : q = 73 ∨ q = 17562299
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:289:114: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 5 ∨ q = 414737
+
+case inr.inr.inr
+q : ℕ
+h✝ : q = 5 ∨ q = 414737
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:296:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:296:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:296:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:296:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:296:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:296:86: warning: 'exact P_24884221' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:301:108: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 2 ∨ q = 2 ∨ q = 16699 ∨ q = 3742729
+
+case inr.inr
+q : ℕ
+h✝ : q = 2 ∨ q = 2 ∨ q = 16699 ∨ q = 3742729
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:307:114: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 3 ∨ q = 3 ∨ q = 929 ∨ q = 9966883
+
+case inr.inr.inr
+q : ℕ
+h✝ : q = 3 ∨ q = 3 ∨ q = 929 ∨ q = 9966883
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:313:126: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 67 ∨ q = 223 ∨ q = 521
+
+case inr.inr.inr.inr.inr
+q : ℕ
+h✝ : q = 67 ∨ q = 223 ∨ q = 521
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:320:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:320:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:320:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:320:64: warning: 'exact P_13513477097' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:325:102: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 3684697
+
+case inr
+q : ℕ
+h✝ : q = 2 ∨ q = 2 ∨ q = 2 ∨ q = 3684697
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:332:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:332:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:332:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:332:108: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:332:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:332:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:332:86: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:332:108: warning: 'exact P_58955153' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:338:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:338:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:338:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:338:108: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:338:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:338:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:338:86: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:338:108: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:343:114: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 3 ∨ q = 3 ∨ q = 3 ∨ q = 3 ∨ q = 6833 ∨ q = 12547
+
+case inr.inr.inr
+q : ℕ
+h✝ : q = 3 ∨ q = 3 ∨ q = 3 ∨ q = 3 ∨ q = 6833 ∨ q = 12547
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:349:108: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 3 ∨ q = 83333108773
+
+case inr.inr
+q : ℕ
+h✝ : q = 3 ∨ q = 83333108773
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:356:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:356:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:356:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:356:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:356:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:356:86: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:361:108: error: Tactic `subst` failed: invalid equality proof, it is not of the form (x = t) or (t = x)
+  q = 167 ∨ q = 106928711
+
+case inr.inr
+q : ℕ
+h✝ : q = 167 ∨ q = 106928711
+⊢ Nat.Prime q
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:368:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:368:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:368:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:368:64: warning: 'exact P_71428378949' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:374:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:374:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:374:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:374:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:374:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:374:86: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:380:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:380:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:380:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:380:64: warning: 'exact P_475736111' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:386:42: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:386:64: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:386:86: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:386:42: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:386:64: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/evidence/erdos681/Erdos681Pratt.lean:386:86: warning: 'exact (by norm_num)' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic

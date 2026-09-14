@@ -1,0 +1,80 @@
+{
+ "schema": "oracle.msl.cable.v1",
+ "id": "erdos681_lucas_prime_999997304513",
+ "spec": {
+  "id": "erdos681_lucas_prime_999997304513",
+  "imports": "Mathlib",
+  "hypotheses": [],
+  "conclusion": "Nat.Prime 999997304513",
+  "proof": "by\n  haveI : Fact (1 < 999997304513) := \u27e8by norm_num\u27e9\n  have key : \u2200 e : \u2115, ((5 : ZMod 999997304513) ^ e).val = 5 ^ e % 999997304513 := by\n    intro e\n    rw [show (5 : ZMod 999997304513) = ((5 : \u2115) : ZMod 999997304513) by norm_num, \u2190 Nat.cast_pow, ZMod.val_natCast]\n  apply lucas_primality 999997304513 (5 : ZMod 999997304513)\n  \u00b7 apply ZMod.val_injective\n    rw [key, ZMod.val_one]\n    norm_num\n  \u00b7 intro q hq hdvd heq\n    have hv := congrArg ZMod.val heq\n    rw [key, ZMod.val_one] at hv\n    have hfac : 999997304513 - 1 = 2 ^ 6 * 37 * 79 * 193 * 27697 := by norm_num\n    rw [hfac] at hdvd\n    rcases (Nat.Prime.dvd_mul hq).1 hdvd with h | h\n    \u00b7 rcases (Nat.Prime.dvd_mul hq).1 h with h | h\n      \u00b7 rcases (Nat.Prime.dvd_mul hq).1 h with h | h\n        \u00b7 rcases (Nat.Prime.dvd_mul hq).1 h with h | h\n          \u00b7 have h2 := (Nat.prime_dvd_prime_iff_eq hq Nat.prime_two).1 (hq.dvd_of_dvd_pow h)\n            subst h2; norm_num at hv\n          \u00b7 have h2 := (Nat.prime_dvd_prime_iff_eq hq (by norm_num)).1 h\n            subst h2; norm_num at hv\n        \u00b7 have h2 := (Nat.prime_dvd_prime_iff_eq hq (by norm_num)).1 h\n          subst h2; norm_num at hv\n      \u00b7 have h2 := (Nat.prime_dvd_prime_iff_eq hq (by norm_num)).1 h\n        subst h2; norm_num at hv\n    \u00b7 have h2 := (Nat.prime_dvd_prime_iff_eq hq (by norm_num)).1 h\n      subst h2; norm_num at hv"
+ },
+ "formal_status": "KERNEL_FAILED",
+ "events": [
+  "((supplied proof)) PROOF.OPEN GOALS[/tmp/oracle_lean_JP8nTcbM.lean:11:2: error: unsolved goals]",
+  "((supplied proof)) PROOF.OPEN GOALS[/tmp/oracle_lean_JP8nTcbM.lean:23:10: error: unsolved goals]",
+  "((supplied proof)) PROOF.OPEN GOALS[/tmp/oracle_lean_JP8nTcbM.lean:25:10: error: unsolved goals]",
+  "((supplied proof)) PROOF.OPEN GOALS[/tmp/oracle_lean_JP8nTcbM.lean:27:8: error: unsolved goals]",
+  "((supplied proof)) PROOF.OPEN GOALS[/tmp/oracle_lean_JP8nTcbM.lean:29:6: error: unsolved goals]",
+  "((supplied proof)) PROOF.OPEN GOALS[/tmp/oracle_lean_JP8nTcbM.lean:31:4: error: unsolved goals]"
+ ],
+ "axioms": [
+  "Classical.choice",
+  "Quot.sound",
+  "propext",
+  "sorryAx"
+ ],
+ "attempts": [
+  {
+   "tactic": "(supplied proof)",
+   "status": "UNVERIFIED",
+   "seconds": 186.7,
+   "errors": [
+    "/tmp/oracle_lean_JP8nTcbM.lean:11:2: error: unsolved goals",
+    "/tmp/oracle_lean_JP8nTcbM.lean:23:10: error: unsolved goals",
+    "/tmp/oracle_lean_JP8nTcbM.lean:25:10: error: unsolved goals",
+    "/tmp/oracle_lean_JP8nTcbM.lean:27:8: error: unsolved goals",
+    "/tmp/oracle_lean_JP8nTcbM.lean:29:6: error: unsolved goals",
+    "/tmp/oracle_lean_JP8nTcbM.lean:31:4: error: unsolved goals"
+   ],
+   "exitCode": 1,
+   "resource_limit": null
+  }
+ ],
+ "budget_history": [
+  {
+   "tier_seconds": 500.0,
+   "outcome": "KERNEL_FAILED"
+  }
+ ],
+ "kernel_result": {
+  "status": "UNVERIFIED",
+  "file": "oracle/frontier_formalizer/cable/theorems/msl_erdos681_lucas_prime_999997304513.lean",
+  "backend": "wsl",
+  "project": "/root/erdosfire-bench/proofs",
+  "needsMathlib": true,
+  "exitCode": 1,
+  "seconds": 162.6,
+  "declarations": [
+   {
+    "declaration": "msl_erdos681_lucas_prime_999997304513",
+    "clean": false,
+    "axioms": [
+     "propext",
+     "sorryAx",
+     "Classical.choice",
+     "Quot.sound"
+    ]
+   }
+  ],
+  "errors": [
+   "/tmp/oracle_lean_JP8nTcbM.lean:11:2: error: unsolved goals",
+   "/tmp/oracle_lean_JP8nTcbM.lean:23:10: error: unsolved goals",
+   "/tmp/oracle_lean_JP8nTcbM.lean:25:10: error: unsolved goals",
+   "/tmp/oracle_lean_JP8nTcbM.lean:27:8: error: unsolved goals",
+   "/tmp/oracle_lean_JP8nTcbM.lean:29:6: error: unsolved goals",
+   "/tmp/oracle_lean_JP8nTcbM.lean:31:4: error: unsolved goals"
+  ]
+ },
+ "lean_result_block": "LEAN_RESULT erdos681_lucas_prime_999997304513\n  FORMAL_STATUS KERNEL_FAILED\n  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_lucas_prime_999997304513.lean\n  THEOREMS msl_erdos681_lucas_prime_999997304513\n  BACKEND wsl\n  AXIOMS Classical.choice, Quot.sound, propext, sorryAx\n  TACTIC (supplied proof)\n  BUDGET 500s:KERNEL_FAILED\n  FAILURE ((supplied proof)) PROOF.OPEN GOALS[/tmp/oracle_lean_JP8nTcbM.lean:11:2: error: unsolved goals]; ((supplied proof)) PROOF.OPEN GOALS[/tmp/oracle_lean_JP8nTcbM.lean:23:10: error: unsolved goals]; ((supplied proof)) PROOF.OPEN GOALS[/tmp/oracle_lean_JP8nTcbM.lean:25:10: error: unsolved goals]; ((supplied proof)) PROOF.OPEN GOALS[/tmp/oracle_lean_JP8nTcbM.lean:27:8: error: unsolved goals]; ((supplied proof)) PROOF.OPEN GOALS[/tmp/oracle_lean_JP8nTcbM.lean:29:6: error: unsolved goals]; ((supplied proof)) PROOF.OPEN GOALS[/tmp/oracle_lean_JP8nTcbM.lean:31:4: error: unsolved goals]\n  LAW KERNEL_FAILED does not refute the claim \u2014 the FAILURE line names what actually broke",
+ "timestamp": "2026-09-14T09:53:33Z"
+}

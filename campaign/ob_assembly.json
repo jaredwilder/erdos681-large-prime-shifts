@@ -1,0 +1,5 @@
+{"id":"erdos681_residual_implies_parent",
+ "imports":"Mathlib",
+ "hypotheses":["(hR : ∃ P0 : Nat, ∀ p : Nat, Nat.Prime p → P0 < p → ∃ h : Nat, 2 ≤ h ∧ ¬ Nat.Prime (p + h) ∧ (h + 1) ^ 2 < Nat.minFac (p + h))"],
+ "conclusion":"∃ N0 : Nat, ∀ n : Nat, N0 ≤ n → ∃ k : Nat, 0 < k ∧ 1 < n + k ∧ ¬ Nat.Prime (n + k) ∧ k ^ 2 < Nat.minFac (n + k)",
+ "proof":"by\n  obtain ⟨P0, hP⟩ := hR\n  refine ⟨P0 + 1, fun n hn => ?_⟩\n  by_cases hp : Nat.Prime (n + 1)\n  · obtain ⟨h, h2, hc, hq⟩ := hP (n + 1) hp (by omega)\n    refine ⟨h + 1, by omega, by omega, ?_, ?_⟩\n    · have e : n + (h + 1) = n + 1 + h := by ring\n      rw [e]; exact hc\n    · have e : n + (h + 1) = n + 1 + h := by ring\n      rw [e]; exact hq\n  · refine ⟨1, by omega, by omega, hp, ?_⟩\n    have := (Nat.minFac_prime (by omega : n + 1 ≠ 1)).two_le\n    simp only [one_pow]; omega"}

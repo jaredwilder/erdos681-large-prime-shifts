@@ -1,0 +1,54 @@
+{
+ "schema": "oracle.msl.cable.v1",
+ "id": "erdos681_bigbad_kills_500_600",
+ "spec": {
+  "id": "erdos681_bigbad_kills_500_600",
+  "imports": "none",
+  "set_options": [
+   "set_option maxRecDepth 200000",
+   "set_option maxHeartbeats 0"
+  ],
+  "definitions": "def killTbl : List (Nat \u00d7 Nat) := [(501, 7), (503, 3), (505, 179), (509, 3), (511, 61), (513, 5), (515, 3), (519, 23), (521, 3), (523, 5), (525, 67), (527, 3), (529, 7), (531, 11), (533, 3), (535, 13), (537, 113), (539, 3), (543, 5), (545, 3), (547, 151), (551, 3), (553, 5), (555, 37), (557, 3), (559, 19), (561, 13), (563, 3), (565, 23), (567, 17), (569, 3), (571, 7), (573, 5), (575, 3), (577, 4703), (579, 193), (581, 3), (583, 5), (585, 7), (587, 3), (589, 7331), (591, 6863), (593, 3), (597, 11), (599, 3)]\ndef primeKs : List Nat := [9, 31, 45, 117, 195, 247, 271, 297, 337, 351, 357, 367, 385, 409, 435, 439, 441, 451, 477, 489, 507, 517, 541, 549, 595, 625, 645, 667, 675, 727, 765, 775, 811, 889, 919, 955, 957, 967, 987]\ndef covered (p k : Nat) : Bool := primeKs.contains k || killTbl.any (fun e => e.1 == k && 2 \u2264 e.2 && e.2 \u2264 k * k && (p - 1 + k) % e.2 == 0)",
+  "hypotheses": [],
+  "conclusion": "((List.range 100).map (\u00b7 + 500)).all (fun k => k % 2 == 0 || k < 3 || covered 999997304513 k) = true",
+  "proof": "by decide +kernel"
+ },
+ "formal_status": "KERNEL_CHECKED",
+ "events": [],
+ "axioms": [],
+ "attempts": [
+  {
+   "tactic": "(supplied proof)",
+   "status": "VERIFIED",
+   "seconds": 5.8,
+   "errors": [],
+   "exitCode": 0,
+   "resource_limit": null
+  }
+ ],
+ "budget_history": [
+  {
+   "tier_seconds": 300.0,
+   "outcome": "KERNEL_CHECKED"
+  }
+ ],
+ "kernel_result": {
+  "status": "VERIFIED",
+  "file": "oracle/frontier_formalizer/cable/theorems/msl_erdos681_bigbad_kills_500_600.lean",
+  "backend": "windows",
+  "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+  "needsMathlib": false,
+  "exitCode": 0,
+  "seconds": 5.8,
+  "declarations": [
+   {
+    "declaration": "msl_erdos681_bigbad_kills_500_600",
+    "clean": true,
+    "axioms": []
+   }
+  ],
+  "errors": []
+ },
+ "lean_result_block": "LEAN_RESULT erdos681_bigbad_kills_500_600\n  FORMAL_STATUS KERNEL_CHECKED\n  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_bigbad_kills_500_600.lean\n  THEOREMS msl_erdos681_bigbad_kills_500_600\n  BACKEND windows\n  AXIOMS -\n  TACTIC (supplied proof)\n  BUDGET 300s:KERNEL_CHECKED\n  FAILURE NONE",
+ "timestamp": "2026-09-14T10:15:17Z"
+}

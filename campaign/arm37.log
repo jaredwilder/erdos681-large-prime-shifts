@@ -1,0 +1,4 @@
+MSL LOOP ARMED - epoch 36, 50 rounds max, absolute round now 1364.
+  after every turn the speaker is handed: "NEXT ROUND, PURELY IN MSL ONLY! GO!"
+  KERNEL ROUNDS ON: every 5 rounds the speaker must produce a real Lean run (new cable receipt) before the demand clears.
+  end it with: /msl STOP     (or python oracle/tools/msl_loop.py --disarm)

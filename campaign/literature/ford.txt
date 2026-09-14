@@ -1,0 +1,145 @@
+arXiv:1108.3861v2  [math.NT]  6 Dec 2016
+SIMPLE PROOF OF GALLAGHER’S SINGULAR SERIES SUM ESTIMATE
+KEVIN FORD
+P. X. Gallagher (Mathematika 23 (1976), 4–9) proved an estimate for the average of the singular
+series associated with r-tuples of linear forms, namely
+(1)
+X
+0≤h1,...,hr≤h
+h1,...,hr distinct
+Y
+p
+
+1 −νp(h)
+p
+ 
+1 −1
+p
+−r
+∼hr
+for each ﬁxed r, where νp(h) is the number of residue classes modulo p occupied by the numbers
+h1, . . . , hr. We give a simpler proof of this result below, with a worse error estimate than Gallagher
+obtained. The constants in all O-terms may depend on r.
+Put y = 1
+2 log h. We ﬁrst note that νp(h) = r if p ∤H, where H = Q
+i<j |hi −hj|. The number
+of prime factors of H is O(log H/ log log H) = O(log h/ log log h). For any h1, . . . , hr, we therefore
+have
+Y
+p>y
+
+1 −νp(h)
+p
+ 
+1 −1
+p
+−r
+=
+Y
+p|H,p>y
+
+1 + O
+1
+p
+
+Y
+p∤H,p>y
+
+1 + O
+ 1
+p2
+
+= 1 + O
+
+log h
+y log log h
+
+= 1 + O
+
+1
+log log h
+
+.
+Thus, the left side of (1) is equal to AB, where
+A =
+
+1 + O
+
+1
+log log h
+ Y
+p≤y
+
+1 −1
+p
+−r
+,
+B =
+X
+0≤h1,...,hr≤h
+h1,...,hr distinct
+Y
+p≤y
+
+1 −νp(h)
+p
+
+.
+We have B = O(hr−1)+B′, where B′ is the corresponding sum without the condition that h1, . . . , hr
+are distinct. Let P = Q
+p≤y p and note that P = ey+o(y) = h1/2+o(1). The product in B is 1/P
+times the number of n, 0 ≤n < P, satisfying (Q
+i(n + hi), P) = 1. Threrefore,
+B′ =
+X
+0≤h1,...,hr≤h
+1
+P
+P −1
+X
+n=0
+r
+Y
+i=1
+X
+di|(n+hi,P )
+µ(di)
+= 1
+P
+P −1
+X
+n=0
+X
+d1,...,dr|P
+µ(d1) · · · µ(dr)
+r
+Y
+i=1
+ h
+di
++ O(1)
+
+= hr
+X
+d1,...,dr|P
+µ(d1) · · · µ(dr)
+d1 · · · dr
++ O
+
+hr−1
+X
+d1,...,dr−1|P
+1
+d1 · · · dr
+
+
+= hr Y
+p≤y
+
+1 −1
+p
+r
++ O(hr−1+o(1)).
+Combined with the expression for A, this proves (1).
+Date: October 13, 2007.
+1

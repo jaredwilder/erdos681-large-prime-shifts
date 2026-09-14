@@ -1,0 +1,5 @@
+{"id":"erdos681_shift_certificate_equiv_r1375",
+ "imports":"Mathlib",
+ "hypotheses":["(m k : ℕ)","(hm : 2 ≤ m)"],
+ "conclusion":"¬ (¬ Nat.Prime m ∧ k ^ 2 < Nat.minFac m) ↔ (Nat.Prime m ∨ ∃ q, Nat.Prime q ∧ q ≤ k ^ 2 ∧ q ∣ m)",
+ "proof":"by\n  constructor\n  · intro h\n    by_cases hp : Nat.Prime m\n    · exact Or.inl hp\n    · right\n      have hle : Nat.minFac m ≤ k ^ 2 := by\n        by_contra hc\n        exact h ⟨hp, by omega⟩\n      exact ⟨Nat.minFac m, Nat.minFac_prime (by omega), hle, Nat.minFac_dvd m⟩\n  · rintro (hp | ⟨q, hq, hqk, hd⟩) ⟨hnp, hlt⟩\n    · exact hnp hp\n    · have := Nat.minFac_le_of_dvd hq.two_le hd\n      omega"}

@@ -1,0 +1,2 @@
+{"seed": 1377, "n": 300, "omega_hist": {"2": 190, "3": 83, "4": 20, "5": 7}, "kmin_dyadic_log2_hist": {"1": 83, "2": 97, "3": 56, "4": 43, "5": 14, "6": 6, "7": 1}, "median_kmin": 7, "median_n_witnesses": 11, "median_balance": 0.3210494080027324}
+HASH 866ae697fa32a0360d9c4dfaac8fc6a0a8f79467ff55a7b25679da70928dc030

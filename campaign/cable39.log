@@ -1,0 +1,12 @@
+LEAN_RESULT erdos681_bigbad_kill_table_999997304513
+  FORMAL_STATUS KERNEL_FAILED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_bigbad_kill_table_999997304513.lean
+  THEOREMS msl_erdos681_bigbad_kill_table_999997304513
+  BACKEND windows
+  AXIOMS sorryAx
+  TACTIC (supplied proof)
+  BUDGET 300s:UNDECIDED_RESOURCE[\(deterministic\) timeout]
+  FAILURE ((supplied proof)) RAW[tmpvkcc4sap.lean:8:279: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached]; ((supplied proof)) RAW[tmpvkcc4sap.lean:8:290: error: (deterministic) timeout at `«tactic execution»`, maximum number of heartbeats (200000) has been reached]; ((supplied proof)) RAW[tmpvkcc4sap.lean:8:301: error: (deterministic) timeout at `«tactic execution»`, maximum number of heartbeats (200000) has been reached]
+  LAW KERNEL_FAILED does not refute the claim — the FAILURE line names what actually broke
+  LAW BUDGET_EXHAUSTED is an UNDECIDED question, not a failed proof — the machine stopped, the mathematics did not answer
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_bigbad_kill_table_999997304513.cable.json

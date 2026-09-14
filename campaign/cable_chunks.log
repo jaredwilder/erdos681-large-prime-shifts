@@ -1,0 +1,90 @@
+LEAN_RESULT erdos681_bigbad_kills_100_200
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_bigbad_kills_100_200.lean
+  THEOREMS msl_erdos681_bigbad_kills_100_200
+  BACKEND windows
+  AXIOMS -
+  TACTIC (supplied proof)
+  BUDGET 300s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_bigbad_kills_100_200.cable.json
+LEAN_RESULT erdos681_bigbad_kills_200_300
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_bigbad_kills_200_300.lean
+  THEOREMS msl_erdos681_bigbad_kills_200_300
+  BACKEND windows
+  AXIOMS -
+  TACTIC (supplied proof)
+  BUDGET 300s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_bigbad_kills_200_300.cable.json
+LEAN_RESULT erdos681_bigbad_kills_300_400
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_bigbad_kills_300_400.lean
+  THEOREMS msl_erdos681_bigbad_kills_300_400
+  BACKEND windows
+  AXIOMS -
+  TACTIC (supplied proof)
+  BUDGET 300s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_bigbad_kills_300_400.cable.json
+LEAN_RESULT erdos681_bigbad_kills_400_500
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_bigbad_kills_400_500.lean
+  THEOREMS msl_erdos681_bigbad_kills_400_500
+  BACKEND windows
+  AXIOMS -
+  TACTIC (supplied proof)
+  BUDGET 300s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_bigbad_kills_400_500.cable.json
+LEAN_RESULT erdos681_bigbad_kills_500_600
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_bigbad_kills_500_600.lean
+  THEOREMS msl_erdos681_bigbad_kills_500_600
+  BACKEND windows
+  AXIOMS -
+  TACTIC (supplied proof)
+  BUDGET 300s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_bigbad_kills_500_600.cable.json
+LEAN_RESULT erdos681_bigbad_kills_600_700
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_bigbad_kills_600_700.lean
+  THEOREMS msl_erdos681_bigbad_kills_600_700
+  BACKEND windows
+  AXIOMS -
+  TACTIC (supplied proof)
+  BUDGET 300s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_bigbad_kills_600_700.cable.json
+LEAN_RESULT erdos681_bigbad_kills_700_800
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_bigbad_kills_700_800.lean
+  THEOREMS msl_erdos681_bigbad_kills_700_800
+  BACKEND windows
+  AXIOMS -
+  TACTIC (supplied proof)
+  BUDGET 300s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_bigbad_kills_700_800.cable.json
+LEAN_RESULT erdos681_bigbad_kills_800_900
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_bigbad_kills_800_900.lean
+  THEOREMS msl_erdos681_bigbad_kills_800_900
+  BACKEND windows
+  AXIOMS -
+  TACTIC (supplied proof)
+  BUDGET 300s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_bigbad_kills_800_900.cable.json
+LEAN_RESULT erdos681_bigbad_kills_900_1002
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_bigbad_kills_900_1002.lean
+  THEOREMS msl_erdos681_bigbad_kills_900_1002
+  BACKEND windows
+  AXIOMS -
+  TACTIC (supplied proof)
+  BUDGET 300s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_bigbad_kills_900_1002.cable.json

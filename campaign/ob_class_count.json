@@ -1,0 +1,5 @@
+{"id":"erdos681_one_class_hits_at_most_r1370",
+ "imports":"Mathlib",
+ "hypotheses":["(H q r : ℕ)","(hq : 0 < q)"],
+ "conclusion":"((Finset.range H).filter (fun k => k % q = r)).card ≤ H / q + 1",
+ "proof":"by\n  have h : ((Finset.range H).filter (fun k => k % q = r)).card ≤ (Finset.range (H / q + 1)).card := by\n    apply Finset.card_le_card_of_injOn (fun k => k / q)\n    · intro k hk\n      simp only [Finset.coe_filter, Finset.mem_range, Set.mem_setOf_eq] at hk\n      simp only [Finset.coe_range, Set.mem_Iio]\n      have := Nat.div_le_div_right (c := q) (Nat.le_of_lt hk.1)\n      omega\n    · intro a ha b hb hab\n      simp only [Finset.coe_filter, Finset.mem_range, Set.mem_setOf_eq] at ha hb\n      have e1 := Nat.div_add_mod a q\n      have e2 := Nat.div_add_mod b q\n      simp only at hab\n      rw [hab, ha.2] at e1\n      rw [hb.2] at e2\n      omega\n  simpa using h"}

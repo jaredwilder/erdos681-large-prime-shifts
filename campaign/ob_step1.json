@@ -1,0 +1,5 @@
+{"id":"erdos681_fixed_K_in_window",
+ "imports":"Mathlib",
+ "hypotheses":["(p K k : Nat)","(hp : (K + 1) ^ 4 < p)","(hk : k ≤ K)","(hk1 : 1 ≤ k)"],
+ "conclusion":"k ^ 4 < p - 1 + k",
+ "proof":"by\n  have h1 : k ^ 4 ≤ K ^ 4 := Nat.pow_le_pow_left hk 4\n  have h2 : K ^ 4 < (K + 1) ^ 4 := Nat.pow_lt_pow_left (by omega) (by norm_num)\n  omega"}

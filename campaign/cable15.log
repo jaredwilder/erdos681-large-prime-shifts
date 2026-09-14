@@ -1,0 +1,11 @@
+LEAN_RESULT erdos681_exempt_family_core
+  FORMAL_STATUS KERNEL_FAILED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_exempt_family_core.lean
+  THEOREMS msl_erdos681_exempt_family_core
+  BACKEND windows
+  AXIOMS propext, sorryAx
+  TACTIC (supplied proof)
+  BUDGET 120s:KERNEL_FAILED
+  FAILURE ((supplied proof)) RAW[tmp47s4mmby.lean:5:41: error: omega could not prove the goal:]
+  LAW KERNEL_FAILED does not refute the claim — the FAILURE line names what actually broke
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_exempt_family_core.cable.json

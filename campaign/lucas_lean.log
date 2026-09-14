@@ -1,0 +1,69 @@
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/frontier_formalizer/cable/theorems/msl_erdos681_lucas_prime_999997304513.lean:11:2: error: unsolved goals
+case ha
+this : Fact (1 < 999997304513)
+key : ∀ (e : ℕ), (5 ^ e).val = 5 ^ e % 999997304513
+⊢ 5 ^ 999997304512 % 999997304513 = 1
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/frontier_formalizer/cable/theorems/msl_erdos681_lucas_prime_999997304513.lean:23:10: error: unsolved goals
+case hd.inl.inl.inl.inl
+this : Fact (1 < 999997304513)
+key : ∀ (e : ℕ), (5 ^ e).val = 5 ^ e % 999997304513
+hfac : 999997304513 - 1 = 2 ^ 6 * 37 * 79 * 193 * 27697
+hq : Nat.Prime 2
+hdvd : 2 ∣ 2 ^ 6 * 37 * 79 * 193 * 27697
+heq : 5 ^ ((999997304513 - 1) / 2) = 1
+h✝² : 2 ∣ 2 ^ 6 * 37 * 79 * 193
+h✝¹ : 2 ∣ 2 ^ 6 * 37 * 79
+h✝ : 2 ∣ 2 ^ 6 * 37
+h : 2 ∣ 2 ^ 6
+hv : 5 ^ 499998652256 % 999997304513 = 1
+⊢ False
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/frontier_formalizer/cable/theorems/msl_erdos681_lucas_prime_999997304513.lean:25:10: error: unsolved goals
+case hd.inl.inl.inl.inr
+this : Fact (1 < 999997304513)
+key : ∀ (e : ℕ), (5 ^ e).val = 5 ^ e % 999997304513
+hfac : 999997304513 - 1 = 2 ^ 6 * 37 * 79 * 193 * 27697
+hq : Nat.Prime 37
+hdvd : 37 ∣ 2 ^ 6 * 37 * 79 * 193 * 27697
+heq : 5 ^ ((999997304513 - 1) / 37) = 1
+h✝² : 37 ∣ 2 ^ 6 * 37 * 79 * 193
+h✝¹ : 37 ∣ 2 ^ 6 * 37 * 79
+h✝ : 37 ∣ 2 ^ 6 * 37
+h : 37 ∣ 37
+hv : 5 ^ 27026954176 % 999997304513 = 1
+⊢ False
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/frontier_formalizer/cable/theorems/msl_erdos681_lucas_prime_999997304513.lean:27:8: error: unsolved goals
+case hd.inl.inl.inr
+this : Fact (1 < 999997304513)
+key : ∀ (e : ℕ), (5 ^ e).val = 5 ^ e % 999997304513
+hfac : 999997304513 - 1 = 2 ^ 6 * 37 * 79 * 193 * 27697
+hq : Nat.Prime 79
+hdvd : 79 ∣ 2 ^ 6 * 37 * 79 * 193 * 27697
+heq : 5 ^ ((999997304513 - 1) / 79) = 1
+h✝¹ : 79 ∣ 2 ^ 6 * 37 * 79 * 193
+h✝ : 79 ∣ 2 ^ 6 * 37 * 79
+h : 79 ∣ 79
+hv : 5 ^ 12658193728 % 999997304513 = 1
+⊢ False
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/frontier_formalizer/cable/theorems/msl_erdos681_lucas_prime_999997304513.lean:29:6: error: unsolved goals
+case hd.inl.inr
+this : Fact (1 < 999997304513)
+key : ∀ (e : ℕ), (5 ^ e).val = 5 ^ e % 999997304513
+hfac : 999997304513 - 1 = 2 ^ 6 * 37 * 79 * 193 * 27697
+hq : Nat.Prime 193
+hdvd : 193 ∣ 2 ^ 6 * 37 * 79 * 193 * 27697
+heq : 5 ^ ((999997304513 - 1) / 193) = 1
+h✝ : 193 ∣ 2 ^ 6 * 37 * 79 * 193
+h : 193 ∣ 193
+hv : 5 ^ 5181333184 % 999997304513 = 1
+⊢ False
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/frontier_formalizer/cable/theorems/msl_erdos681_lucas_prime_999997304513.lean:31:4: error: unsolved goals
+case hd.inr
+this : Fact (1 < 999997304513)
+key : ∀ (e : ℕ), (5 ^ e).val = 5 ^ e % 999997304513
+hfac : 999997304513 - 1 = 2 ^ 6 * 37 * 79 * 193 * 27697
+hq : Nat.Prime 27697
+hdvd : 27697 ∣ 2 ^ 6 * 37 * 79 * 193 * 27697
+heq : 5 ^ ((999997304513 - 1) / 27697) = 1
+h : 27697 ∣ 27697
+hv : 5 ^ 36104896 % 999997304513 = 1
+⊢ False

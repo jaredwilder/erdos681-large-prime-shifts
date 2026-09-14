@@ -1,0 +1,5 @@
+{"claim": "Large deviation lower tail for the number of integers free of prime factors below z in a random short interval of length h, reduced residues in short intervals, Jacobsthal function probabilistic, moments of reduced residues Montgomery Vaughan Hausman Shapiro",
+ "domain": "mathematics",
+ "novelty_target": "paper",
+ "entities": ["reduced residues", "short intervals", "Jacobsthal function", "large deviations", "sieve", "Montgomery Vaughan"],
+ "min_corpus": 5}

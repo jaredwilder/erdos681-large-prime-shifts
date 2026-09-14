@@ -1,0 +1,10 @@
+LEAN_RESULT erdos681_bad_prime_burst_2999897_2999903
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_bad_prime_burst_2999897_2999903.lean
+  THEOREMS msl_erdos681_bad_prime_burst_2999897_2999903
+  BACKEND windows
+  AXIOMS -
+  TACTIC (supplied proof)
+  BUDGET 300s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_bad_prime_burst_2999897_2999903.cable.json

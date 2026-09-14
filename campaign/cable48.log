@@ -1,0 +1,10 @@
+LEAN_RESULT erdos681_n999997304512_no_witness_stamp_r1366
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_n999997304512_no_witness_stamp_r1366.lean
+  THEOREMS msl_erdos681_n999997304512_no_witness_stamp_r1366
+  BACKEND wsl
+  AXIOMS Classical.choice, Quot.sound, propext
+  TACTIC (supplied proof)
+  BUDGET 1200s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_n999997304512_no_witness_stamp_r1366.cable.json

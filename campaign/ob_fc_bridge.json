@@ -1,0 +1,6 @@
+{"id":"erdos681_fc_lpf_bridge",
+ "imports":"Mathlib",
+ "definitions":"def IsLPF681 (p m : ℕ) : Prop := p.Prime ∧ p ∣ m ∧ ∀ q, q.Prime ∧ q ∣ m → p ≤ q",
+ "hypotheses":["(m k : Nat)","(hm : 1 < m)"],
+ "conclusion":"(∀ p, IsLPF681 p m → p > k ^ 2) ↔ k ^ 2 < Nat.minFac m",
+ "proof":"by\n  have hne : m ≠ 1 := by omega\n  have hmp := Nat.minFac_prime hne\n  constructor\n  · intro h\n    exact h _ ⟨hmp, Nat.minFac_dvd m, fun q hq => Nat.minFac_le_of_dvd hq.1.two_le hq.2⟩\n  · intro h p hp\n    have h1 : Nat.minFac m ≤ p := Nat.minFac_le_of_dvd hp.1.two_le hp.2.1\n    have h2 : p ≤ Nat.minFac m := hp.2.2 _ ⟨hmp, Nat.minFac_dvd m⟩\n    omega"}

@@ -1,0 +1,69 @@
+{
+ "schema": "oracle.msl.cable.v1",
+ "id": "erdos681_bigbad_kill_table_999997304513",
+ "spec": {
+  "id": "erdos681_bigbad_kill_table_999997304513",
+  "imports": "none",
+  "set_options": [
+   "set_option maxRecDepth 200000"
+  ],
+  "definitions": "def killTbl : List (Nat \u00d7 Nat) := [(3, 5), (5, 3), (7, 41), (11, 3), (13, 5), (15, 13), (17, 3), (19, 157), (21, 373), (23, 3), (25, 7), (27, 19), (29, 3), (33, 5), (35, 3), (37, 37), (39, 7), (41, 3), (43, 5), (47, 3), (49, 449), (51, 53), (53, 3), (55, 43), (57, 17), (59, 3), (61, 1049), (63, 5), (65, 3), (67, 7), (69, 11), (71, 3), (73, 5), (75, 1493), (77, 3), (79, 79), (81, 7), (83, 3), (85, 113), (87, 733), (89, 3), (91, 11), (93, 5), (95, 3), (97, 71), (99, 97), (101, 3), (103, 5), (105, 23), (107, 3), (109, 7), (111, 37), (113, 3), (115, 587), (119, 3), (121, 29), (123, 5), (125, 3), (127, 31), (129, 131), (131, 3), (133, 5), (135, 11), (137, 3), (139, 83), (141, 19), (143, 3), (145, 13), (147, 47), (149, 3), (151, 7), (153, 5), (155, 3), (157, 11), (159, 17), (161, 3), (163, 5), (165, 7), (167, 3), (169, 59), (171, 13), (173, 3), (175, 311), (177, 619), (179, 3), (181, 173), (183, 5), (185, 3), (187, 239), (189, 31), (191, 3), (193, 5), (197, 3), (199, 347), (201, 11), (203, 3), (205, 4583), (207, 7), (209, 3), (211, 509), (213, 5), (215, 3), (217, 19), (219, 919), (221, 3), (223, 5), (225, 443), (227, 3), (229, 3529), (231, 149), (233, 3), (235, 7), (237, 29), (239, 3), (241, 47), (243, 5), (245, 3), (249, 7), (251, 3), (253, 5), (255, 19), (257, 3), (259, 37), (261, 17), (263, 3), (265, 307), (267, 11), (269, 3), (273, 5), (275, 3), (277, 7), (279, 103), (281, 3), (283, 5), (285, 89), (287, 3), (289, 11), (291, 7), (293, 3), (295, 17), (299, 3), (301, 13), (303, 5), (305, 3), (307, 20717), (309, 21157), (311, 3), (313, 5), (315, 19139), (317, 3), (319, 7), (321, 16829), (323, 3), (325, 55073), (327, 13), (329, 3), (331, 19), (333, 5), (335, 3), (339, 389), (341, 3), (343, 5), (345, 883), (347, 3), (349, 337), (353, 3), (355, 11), (359, 3), (361, 7), (363, 5), (365, 3), (369, 19), (371, 3), (373, 5), (375, 7), (377, 3), (379, 13), (381, 23), (383, 3), (387, 853), (389, 3), (391, 67), (393, 5), (395, 3), (397, 17), (399, 11), (401, 3), (403, 5), (405, 13), (407, 3), (411, 29), (413, 3), (415, 907), (417, 7), (419, 3), (421, 11), (423, 5), (425, 3), (427, 23), (429, 47), (431, 3), (433, 5), (437, 3), (443, 3), (445, 7), (447, 463), (449, 3), (453, 5), (455, 3), (457, 13), (459, 7), (461, 3), (463, 5), (465, 11), (467, 3), (469, 29), (471, 83), (473, 3), (475, 53), (479, 3), (481, 37), (483, 5), (485, 3), (487, 7), (491, 3), (493, 5), (495, 156119), (497, 3), (499, 17), (501, 7), (503, 3), (505, 179), (509, 3), (511, 61), (513, 5), (515, 3), (519, 23), (521, 3), (523, 5), (525, 67), (527, 3), (529, 7), (531, 11), (533, 3), (535, 13), (537, 113), (539, 3), (543, 5), (545, 3), (547, 151), (551, 3), (553, 5), (555, 37), (557, 3), (559, 19), (561, 13), (563, 3), (565, 23), (567, 17), (569, 3), (571, 7), (573, 5), (575, 3), (577, 4703), (579, 193), (581, 3), (583, 5), (585, 7), (587, 3), (589, 7331), (591, 6863), (593, 3), (597, 11), (599, 3), (601, 17), (603, 5), (605, 3), (607, 20477), (609, 3319), (611, 3), (613, 5), (615, 109), (617, 3), (619, 11), (621, 73), (623, 3), (627, 7), (629, 3), (631, 379), (633, 5), (635, 3), (637, 83), (639, 13), (641, 3), (643, 5), (647, 3), (649, 3659), (651, 139), (653, 3), (655, 7), (657, 23), (659, 3), (661, 691), (663, 5), (665, 3), (669, 7), (671, 3), (673, 5), (677, 3), (679, 2087), (681, 97), (683, 3), (685, 11), (687, 53), (689, 3), (691, 13), (693, 5), (695, 3), (697, 7), (699, 137), (701, 3), (703, 5), (705, 599), (707, 3), (709, 1031), (711, 7), (713, 3), (715, 601), (717, 13), (719, 3), (721, 1597), (723, 5), (725, 3), (729, 11), (731, 3), (733, 5), (735, 291143), (737, 3), (739, 7), (741, 111871), (743, 3), (745, 41), (747, 31), (749, 3), (751, 11), (753, 5), (755, 3), (757, 1061), (759, 29), (761, 3), (763, 5), (767, 3), (769, 13), (771, 17), (773, 3), (777, 37), (779, 3), (781, 7), (783, 5), (785, 3), (787, 19), (789, 3229), (791, 3), (793, 5), (795, 7), (797, 3), (799, 14723), (801, 199), (803, 3), (805, 17), (807, 71), (809, 3), (813, 5), (815, 3), (817, 11), (819, 89), (821, 3), (823, 5), (825, 19), (827, 3), (829, 43), (831, 1873), (833, 3), (835, 271), (837, 7), (839, 3), (841, 23), (843, 5), (845, 3), (847, 13), (849, 151), (851, 3), (853, 5), (855, 433), (857, 3), (859, 181), (861, 11), (863, 3), (865, 7), (867, 683807), (869, 3), (871, 31), (873, 5), (875, 3), (877, 59), (879, 7), (881, 3), (883, 5), (885, 769), (887, 3), (891, 859), (893, 3), (895, 3623), (897, 103), (899, 3), (901, 19), (903, 5), (905, 3), (907, 7), (909, 41), (911, 3), (913, 5), (915, 43), (917, 3), (921, 7), (923, 3), (925, 13), (927, 11), (929, 3), (931, 257), (933, 5), (935, 3), (937, 2437), (939, 19), (941, 3), (943, 5), (945, 233), (947, 3), (949, 7), (951, 13), (953, 3), (959, 3), (961, 157), (963, 5), (965, 3), (969, 83), (971, 3), (973, 5), (975, 17), (977, 3), (979, 23), (981, 1163), (983, 3), (985, 2549), (989, 3), (991, 7), (993, 5), (995, 3), (997, 89), (999, 37)]\ndef primeKs : List Nat := [9, 31, 45, 117, 195, 247, 271, 297, 337, 351, 357, 367, 385, 409, 435, 439, 441, 451, 477, 489, 507, 517, 541, 549, 595, 625, 645, 667, 675, 727, 765, 775, 811, 889, 919, 955, 957, 967, 987]\ndef covered (p k : Nat) : Bool := primeKs.contains k || killTbl.any (fun e => e.1 == k && 2 \u2264 e.2 && e.2 \u2264 k * k && (p - 1 + k) % e.2 == 0)",
+  "hypotheses": [],
+  "conclusion": "(List.range 1001).all (fun k => k % 2 == 0 || k < 3 || covered 999997304513 k) = true \u2227 1001 ^ 4 \u2265 999997304513 - 1 + 1001 \u2227 (List.range 1000).all (fun k => k % 2 == 0 || k < 3 || k ^ 4 < 999997304513 - 1 + k) = true",
+  "proof": "\u27e8by decide, by decide, by decide\u27e9"
+ },
+ "formal_status": "KERNEL_FAILED",
+ "events": [
+  "((supplied proof)) RAW[tmpvkcc4sap.lean:8:279: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached]",
+  "((supplied proof)) RAW[tmpvkcc4sap.lean:8:290: error: (deterministic) timeout at `\u00abtactic execution\u00bb`, maximum number of heartbeats (200000) has been reached]",
+  "((supplied proof)) RAW[tmpvkcc4sap.lean:8:301: error: (deterministic) timeout at `\u00abtactic execution\u00bb`, maximum number of heartbeats (200000) has been reached]"
+ ],
+ "axioms": [
+  "sorryAx"
+ ],
+ "attempts": [
+  {
+   "tactic": "(supplied proof)",
+   "status": "UNVERIFIED",
+   "seconds": 57.8,
+   "errors": [
+    "tmpvkcc4sap.lean:8:279: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached",
+    "tmpvkcc4sap.lean:8:290: error: (deterministic) timeout at `\u00abtactic execution\u00bb`, maximum number of heartbeats (200000) has been reached",
+    "tmpvkcc4sap.lean:8:301: error: (deterministic) timeout at `\u00abtactic execution\u00bb`, maximum number of heartbeats (200000) has been reached"
+   ],
+   "exitCode": 1,
+   "resource_limit": "\\(deterministic\\) timeout"
+  }
+ ],
+ "budget_history": [
+  {
+   "tier_seconds": 300.0,
+   "outcome": "UNDECIDED_RESOURCE[\\(deterministic\\) timeout]"
+  }
+ ],
+ "kernel_result": {
+  "status": "UNVERIFIED",
+  "file": "oracle/frontier_formalizer/cable/theorems/msl_erdos681_bigbad_kill_table_999997304513.lean",
+  "backend": "windows",
+  "project": "C:\\Users\\jared\\Local Sites\\woocommerce-enterprise\\oracle\\math\\EG411Formal",
+  "needsMathlib": false,
+  "exitCode": 1,
+  "seconds": 57.8,
+  "declarations": [
+   {
+    "declaration": "msl_erdos681_bigbad_kill_table_999997304513",
+    "clean": false,
+    "axioms": [
+     "sorryAx"
+    ]
+   }
+  ],
+  "errors": [
+   "tmpvkcc4sap.lean:8:279: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached",
+   "tmpvkcc4sap.lean:8:290: error: (deterministic) timeout at `\u00abtactic execution\u00bb`, maximum number of heartbeats (200000) has been reached",
+   "tmpvkcc4sap.lean:8:301: error: (deterministic) timeout at `\u00abtactic execution\u00bb`, maximum number of heartbeats (200000) has been reached"
+  ]
+ },
+ "lean_result_block": "LEAN_RESULT erdos681_bigbad_kill_table_999997304513\n  FORMAL_STATUS KERNEL_FAILED\n  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_bigbad_kill_table_999997304513.lean\n  THEOREMS msl_erdos681_bigbad_kill_table_999997304513\n  BACKEND windows\n  AXIOMS sorryAx\n  TACTIC (supplied proof)\n  BUDGET 300s:UNDECIDED_RESOURCE[\\(deterministic\\) timeout]\n  FAILURE ((supplied proof)) RAW[tmpvkcc4sap.lean:8:279: error: (deterministic) timeout at `whnf`, maximum number of heartbeats (200000) has been reached]; ((supplied proof)) RAW[tmpvkcc4sap.lean:8:290: error: (deterministic) timeout at `\u00abtactic execution\u00bb`, maximum number of heartbeats (200000) has been reached]; ((supplied proof)) RAW[tmpvkcc4sap.lean:8:301: error: (deterministic) timeout at `\u00abtactic execution\u00bb`, maximum number of heartbeats (200000) has been reached]\n  LAW KERNEL_FAILED does not refute the claim \u2014 the FAILURE line names what actually broke\n  LAW BUDGET_EXHAUSTED is an UNDECIDED question, not a failed proof \u2014 the machine stopped, the mathematics did not answer",
+ "timestamp": "2026-09-14T10:00:03Z"
+}

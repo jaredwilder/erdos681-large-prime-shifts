@@ -1,0 +1,2 @@
+{'H': 401, 'odd_shifts': 200, 'primes_used': 9, 'log_M': 21.897, 'budget': 23.976, 'uncovered': 53, 'chosen': [3, 5, 7, 11, 13, 17, 19, 23, 29], 'prod_bound': 31.589, 'sqrtH': 20.02}
+HASH b776a2b3a4aac9ed630a1f198898209d576b7505b917d15c090ef68eee31067b

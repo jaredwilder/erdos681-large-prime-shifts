@@ -1,0 +1,12 @@
+{'k': 3, 'witness': 0.24377, 'prime': 0.0688, 'rough': 0.31256, 'c_k': 0.3125, 'rough_over_ck': 1.0002}
+{'k': 5, 'witness': 0.14922, 'prime': 0.06887, 'rough': 0.21808, 'c_k': 0.2179, 'rough_over_ck': 1.0009}
+{'k': 7, 'witness': 0.22982, 'prime': 0.13783, 'rough': 0.36765, 'c_k': 0.36772, 'rough_over_ck': 0.9998}
+{'k': 9, 'witness': 0.0958, 'prime': 0.06864, 'rough': 0.16443, 'c_k': 0.16468, 'rough_over_ck': 0.9985}
+{'k': 13, 'witness': 0.14753, 'prime': 0.13823, 'rough': 0.28576, 'c_k': 0.28511, 'rough_over_ck': 1.0023}
+{'k': 21, 'witness': 0.06931, 'prime': 0.09242, 'rough': 0.16174, 'c_k': 0.16121, 'rough_over_ck': 1.0033}
+{'k': 31, 'witness': 0.10569, 'prime': 0.18448, 'rough': 0.29017, 'c_k': 0.28686, 'rough_over_ck': 1.0115}
+{'k': 43, 'witness': 0.07145, 'prime': 0.16554, 'rough': 0.23699, 'c_k': 0.2359, 'rough_over_ck': 1.0046}
+{'k': 61, 'witness': 0.05175, 'prime': 0.18366, 'rough': 0.23541, 'c_k': 0.23991, 'rough_over_ck': 0.9812}
+{'k': 91, 'witness': 0.02104, 'prime': 0.18364, 'rough': 0.20468, 'c_k': 0.21891, 'rough_over_ck': 0.935}
+{'k': 117, 'witness': 0.00074, 'prime': 0.07198, 'rough': 0.07272, 'c_k': 0.08066, 'rough_over_ck': 0.9016}
+HASH 31cc13c69a759864f70363d261002d26d0441f1b4826c31d16e30c17b5c4b59e

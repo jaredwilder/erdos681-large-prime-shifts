@@ -1,0 +1,5 @@
+{"id":"erdos681_N42_S6_mertens_ratio_core",
+ "imports":"none",
+ "hypotheses":["(k K : Nat)","(hk : k ≤ K)"],
+ "conclusion":"k * k ≤ (2 * K) * (2 * K)",
+ "proof":"Nat.mul_le_mul (by omega) (by omega)"}

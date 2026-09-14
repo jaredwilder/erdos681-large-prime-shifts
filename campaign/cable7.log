@@ -1,0 +1,10 @@
+LEAN_RESULT erdos681_divisor_of_shift_is_free
+  FORMAL_STATUS KERNEL_CHECKED
+  FILE oracle/frontier_formalizer/cable/theorems/msl_erdos681_divisor_of_shift_is_free.lean
+  THEOREMS msl_erdos681_divisor_of_shift_is_free
+  BACKEND wsl
+  AXIOMS Quot.sound, propext
+  TACTIC (supplied proof)
+  BUDGET 120s:UNDECIDED_RESOURCE[wall-clock timeout (exit 124)] -> 600s:KERNEL_CHECKED
+  FAILURE NONE
+receipt: C:\Users\jared\Local Sites\woocommerce-enterprise\oracle\frontier_formalizer\cable\receipts\erdos681_divisor_of_shift_is_free.cable.json

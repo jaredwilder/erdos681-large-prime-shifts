@@ -1,0 +1,18 @@
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/frontier_formalizer/cable/theorems/msl_erdos681_powMod_correct.lean:25:6: error: unsolved goals
+case neg
+a m e : ℕ
+ih : ∀ m_1 < e + 1, powMod a m m_1 = a ^ m_1 % m
+hlt : (e + 1) / 2 < e + 1
+hrec : powMod a m ((e + 1) / 2) = a ^ ((e + 1) / 2) % m
+h : ¬(e + 1) % 2 = 0
+he : e + 1 = 2 * ((e + 1) / 2) + 1
+⊢ a % m % m * (((a % m % m) ^ ((1 + e) / 2) % m % m) ^ 2 % m % m) % m =
+    a % m % m * (((a % m % m) ^ 2 % m % m) ^ ((1 + e) / 2) % m % m) % m
+/mnt/c/Users/jared/Local Sites/woocommerce-enterprise/oracle/frontier_formalizer/cable/theorems/msl_erdos681_powMod_correct.lean:29:14: warning: This simp argument is unused:
+  Nat.mod_mod
+
+Hint: Omit it from the simp argument list.
+  simp [Nat.mo̵d̵_̵m̵o̵d̵,̵ ̵N̵a̵t̵.̵m̵ul_mod, Nat.pow_mod]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ckages/Cli' has local changes
